@@ -23,7 +23,7 @@ public class RoyalRockets_Pay extends Application {
         
         Scene scene = new Scene(root, 360, 640);
         
-        Parent cashierUnlock = FXMLLoader.load(getClass().getResource("CashierUnlock.fxml"));
+        Parent cashierUnlock = FXMLLoader.load(getClass().getResource("PaymentType.fxml"));
         Scene starterScene = new Scene(cashierUnlock);
         
         stage.setTitle("RoyalRockets Welcome");
