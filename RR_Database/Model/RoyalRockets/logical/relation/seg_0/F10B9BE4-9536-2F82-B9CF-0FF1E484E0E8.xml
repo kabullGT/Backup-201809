@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MODULE_LOG_FK" directorySegmentName="seg_0" id="F10B9BE4-9536-2F82-B9CF-0FF1E484E0E8">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-24 07:14:05 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<sourcePk>2D0ACCC4-E3CF-7506-EF2B-974E97A53241</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>827DC591-BA86-6A08-8D01-82B2D825F912</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C44D6063-9DDA-DD2F-F667-F6FCA62C8509</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

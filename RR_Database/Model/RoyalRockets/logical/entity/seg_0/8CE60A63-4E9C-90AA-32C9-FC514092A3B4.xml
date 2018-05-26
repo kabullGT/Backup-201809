@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CE60A63-4E9C-90AA-32C9-FC514092A3B4" name="TB_ACCESS_CONTROL">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-03-27 18:50:25 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="event_day_id" id="3622100C-88EF-E1B2-FCC5-BD7B8D92F3A5">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-03-27 23:12:34 UTC</createdTime>
+<generatorID>9154D574-B91A-E5B3-46CA-651119BB72B2</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<referedAttribute>3607F860-4263-1087-79C0-4AF2D343096E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="area_id" id="1C17F87D-98B3-829D-B793-AEBA81BF6C5F">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-03-27 23:01:51 UTC</createdTime>
+<generatorID>0B365D14-4358-5BE0-AAB6-34E066118609</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<referedAttribute>D1625859-6C4F-C1BF-82A2-3978BBDF680E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="allowed" id="AF675197-944F-E082-7567-74CA05DA843A">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-03-27 22:35:59 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="in_time" id="7E1B7A3F-C70A-95AD-FB54-A2D463CF1F52">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-03-27 20:01:12 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="out_time" id="A2C6933E-4592-71B0-7E27-64FFE7411EA8">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-03-27 20:01:44 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wrt_uid" id="D2C71C5C-4EF8-D38E-958E-3E973D9AC9C0">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-03-28 09:06:36 UTC</createdTime>
+<generatorID>F532B4BB-A455-B7B2-D771-F5A9BD24D660</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<referedAttribute>20D8538E-292D-501B-21CB-B2A660DE888A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3F722033-7ED4-AE08-576A-37413049EF90" name="TB_AREA_WRISTBAND PK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-03-27 18:50:54 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1C17F87D-98B3-829D-B793-AEBA81BF6C5F</attributeRef>
+<attributeRef>3622100C-88EF-E1B2-FCC5-BD7B8D92F3A5</attributeRef>
+<attributeRef>D2C71C5C-4EF8-D38E-958E-3E973D9AC9C0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

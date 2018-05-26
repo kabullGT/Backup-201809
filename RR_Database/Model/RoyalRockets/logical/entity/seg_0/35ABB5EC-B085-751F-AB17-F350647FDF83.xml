@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="35ABB5EC-B085-751F-AB17-F350647FDF83" name="TB_LOG_TYPE">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-24 00:11:32 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="log_type_id" id="6009823F-745E-2B05-A23B-8AD2393A8C79">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-24 00:12:48 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="log_type" id="05E7D784-8159-1885-3F1B-76803BC8686E">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-24 00:13:07 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="log_type_dsc" id="F193B319-136E-9E5C-4E91-A1A97C4D5BE5">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-24 00:14:11 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="93C1C434-9148-9C8D-7B94-F57653777D02" name="tb_log_type PK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-24 00:23:21 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6009823F-745E-2B05-A23B-8AD2393A8C79</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

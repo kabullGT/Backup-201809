@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ORDER_SELLER_FK" directorySegmentName="seg_0" id="5583B464-F024-2864-29C3-74660E51C22B">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-26 03:39:04 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<sourcePk>293F6AAF-E126-37E3-0540-C0E273D1342E</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C4C44C8E-717C-0360-1BD5-5763687E255E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D4B60B68-7135-6A59-3846-8AF3A2F419D5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

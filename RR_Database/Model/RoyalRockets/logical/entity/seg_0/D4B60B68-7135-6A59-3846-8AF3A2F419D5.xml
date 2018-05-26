@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D4B60B68-7135-6A59-3846-8AF3A2F419D5" name="TB_ORDER_PRODUCT">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-24 06:04:50 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="order_id" id="EDBF9E36-6DCF-2A81-BA28-A2C880F179A3">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-24 06:05:12 UTC</createdTime>
+<generatorID>10627802-16A2-5C56-AAC0-34A12A894EF9</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<referedAttribute>8169F46A-1CEA-2913-D715-3135BEEF6E0C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="event_id" id="298F93A8-E97F-F544-11BC-A8F99E58A9F6">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-24 06:05:12 UTC</createdTime>
+<generatorID>10627802-16A2-5C56-AAC0-34A12A894EF9</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<referedAttribute>A3FEECE4-F8D7-CD1E-8ABA-879A92ECD215</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wrt_uid" id="AAF2FED0-2A42-0003-E886-CFFF14E3EAFF">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-24 06:05:12 UTC</createdTime>
+<generatorID>10627802-16A2-5C56-AAC0-34A12A894EF9</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<referedAttribute>77D0914A-8D78-F825-1B79-F7DE32130FAB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="copartner_id" id="DF1EDA63-95FE-8B98-0CA8-9A55A2994571">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-26 03:39:04 UTC</createdTime>
+<generatorID>5583B464-F024-2864-29C3-74660E51C22B</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<referedAttribute>C62E56A2-0F2C-E30A-189E-8F963AB084BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="product_id" id="E9C093F6-1FA2-C2DC-B72B-CAFDBF000F70">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-26 03:39:04 UTC</createdTime>
+<generatorID>5583B464-F024-2864-29C3-74660E51C22B</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<referedAttribute>A6DF051D-A801-97D2-4D99-E48FCD4A66FE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_salepoint" id="5A75B681-A1F1-E0B2-8375-EB53674C2B91">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-26 03:42:17 UTC</createdTime>
+<generatorID>ACC2B5C9-FA6A-D49F-2D51-DAA00D3B1A34</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<referedAttribute>48166C84-CE45-544C-404F-FF5EC1DC2836</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="order_datetime" id="2EC6D3B9-EE45-E91F-E53F-AE07941EFEE6">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-26 03:44:26 UTC</createdTime>
+<generatorID>10627802-16A2-5C56-AAC0-34A12A894EF9</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<referedAttribute>4AF2C9F3-547A-6204-5A17-206ADD492A0A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E21F8085-3E9F-8869-8473-D97F704D1844" name="TB_ORDER_PRODUCT PK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-24 06:05:12 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EDBF9E36-6DCF-2A81-BA28-A2C880F179A3</attributeRef>
+<attributeRef>298F93A8-E97F-F544-11BC-A8F99E58A9F6</attributeRef>
+<attributeRef>AAF2FED0-2A42-0003-E886-CFFF14E3EAFF</attributeRef>
+<attributeRef>DF1EDA63-95FE-8B98-0CA8-9A55A2994571</attributeRef>
+<attributeRef>E9C093F6-1FA2-C2DC-B72B-CAFDBF000F70</attributeRef>
+<attributeRef>5A75B681-A1F1-E0B2-8375-EB53674C2B91</attributeRef>
+<attributeRef>2EC6D3B9-EE45-E91F-E53F-AE07941EFEE6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

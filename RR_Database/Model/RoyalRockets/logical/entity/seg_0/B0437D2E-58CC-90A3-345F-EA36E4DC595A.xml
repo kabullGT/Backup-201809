@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B0437D2E-58CC-90A3-345F-EA36E4DC595A" name="TB_EVENT">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-03-27 18:05:40 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="event_id" id="7C0D6644-089D-6DE5-EC1C-7DB195155D01">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-03-27 18:26:08 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="event_name" id="1C494298-A53E-13CA-33AF-F6BDE5317071">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-03-27 18:26:14 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="event_address" id="B16C0689-3AB8-DE6E-3A44-8C4BFC1B2260">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-03-27 18:26:22 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="event_zip" id="06DBCE79-A286-09F5-4FB1-C54A29AE453F">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-03-27 18:26:29 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="event_country" id="C856C0B1-D806-56A3-3DF8-5436E00FC5C1">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-03-27 18:26:35 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="event_capacity" id="AC1BF850-ABF9-086F-7C12-6740D74D341F">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-03-27 18:28:29 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F3EAF26D-2445-0E88-1CB2-C98E75F11C68" name="TB_EVENT PK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-03-27 18:29:25 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7C0D6644-089D-6DE5-EC1C-7DB195155D01</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="WRT_TYPE_FK" directorySegmentName="seg_0" id="C7787337-D1CD-B860-D1FC-17DB12D9875B">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-03-27 23:40:00 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="8DC7A3DC-C037-B916-14C0-F66ABDA5E534" value="true"/>
+</engineerTo>
+<sourcePk>1E4D0E90-140E-9C85-AFA8-38EAB307BD30</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3B9569A3-2F85-C03F-9A43-97A23ACF90A8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>523AB772-96BA-2269-1039-116A04BA974B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

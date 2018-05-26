@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TRN_TRN_FK" directorySegmentName="seg_0" id="B90B9D37-BDD0-2E5E-7B78-1D0443B23183">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-24 06:25:54 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="409C0A09-28DD-3875-6C5E-784B8E054443" value="true"/>
+</engineerTo>
+<targetPk>6FEEAC18-4192-D641-25F5-55C760E2C563</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C52ED3DE-7969-81AF-B479-E3E905CADF40</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>C52ED3DE-7969-81AF-B479-E3E905CADF40</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

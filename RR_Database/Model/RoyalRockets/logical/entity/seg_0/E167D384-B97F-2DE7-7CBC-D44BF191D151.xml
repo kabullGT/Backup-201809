@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E167D384-B97F-2DE7-7CBC-D44BF191D151" name="TB_MODULE_ACCESS_LEVEL">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-24 07:06:01 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="access_level_id" id="2675C34A-0414-A427-BB7C-262672DA1B27">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-24 07:06:36 UTC</createdTime>
+<generatorID>83159C84-0867-42E1-F604-CF78A847BB77</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<referedAttribute>E035001F-4B56-A433-ECCF-1C3843418CEE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="module_id" id="2191186F-2924-A0C1-6D54-7311371D47B8">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-24 07:06:54 UTC</createdTime>
+<generatorID>A9FAD1AA-94F8-A961-63DE-B304BA7BB4B9</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<referedAttribute>22C320BD-5B46-DC55-5426-B178448144BC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="92218528-DD5D-413B-B2A5-A955A0A0FB5E" name="TB_MODULE_ACCESS_LEVEL PK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-24 07:06:36 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2675C34A-0414-A427-BB7C-262672DA1B27</attributeRef>
+<attributeRef>2191186F-2924-A0C1-6D54-7311371D47B8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

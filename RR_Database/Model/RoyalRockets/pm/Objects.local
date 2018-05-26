@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.process.ProcessModel>
+   <object objectType="InfoStore" objectID="CAD0F895-B3D2-2688-87CB-893D074C5DA2" name="InfoStore_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.InfoStore" propertyParentId="EEF34DC9-EE88-DD0B-FB42-24D4319B8D51" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.process.ProcessModel>

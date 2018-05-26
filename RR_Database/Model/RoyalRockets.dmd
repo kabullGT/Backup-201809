@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="RoyalRockets" id="8F3BC7BF-7CC9-040B-82A1-A0531498361C" version="3.5">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-03-27 18:02:02 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8F3BC7BF-7CC9-040B-82A1-A0531498361C</designId>
+</OSDM_Design>

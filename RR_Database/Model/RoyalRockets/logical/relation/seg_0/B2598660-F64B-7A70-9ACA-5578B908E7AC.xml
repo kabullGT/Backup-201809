@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AREA_SALEPOINT_FK" directorySegmentName="seg_0" id="B2598660-F64B-7A70-9ACA-5578B908E7AC">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-26 03:42:02 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<sourcePk>C6D8DA37-80A0-BFA1-895A-3A90B2915F5F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F7C70F3A-2788-8C50-257D-155254E03450</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B6BDC4F8-076D-771F-C972-F4EC959DF48D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

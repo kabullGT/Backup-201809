@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2406AB25-4BE5-23E8-E437-16E4FA606B76" name="TB_CLIENT_EVENT">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-24 04:11:46 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="client_ruid" id="F1CE5EB3-8723-86BB-5DB4-0C029F4EE008">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-24 04:13:39 UTC</createdTime>
+<generatorID>23A932BC-CC62-AF5F-734F-FB869CEF3BC2</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<referedAttribute>E8AEA677-B332-6167-37CE-F50AD7BEAC95</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="event_id" id="4B198EF3-90B6-0420-379C-AA29113E43EB">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-24 04:13:48 UTC</createdTime>
+<generatorID>1FCB85BE-4425-36A1-D304-F0AFA6C79D1C</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<referedAttribute>7C0D6644-089D-6DE5-EC1C-7DB195155D01</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DDE2FE75-DDD5-1743-DB08-853ED8C1A0AB" name="TB_CLIENT_EVENT PK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-24 04:13:39 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F1CE5EB3-8723-86BB-5DB4-0C029F4EE008</attributeRef>
+<attributeRef>4B198EF3-90B6-0420-379C-AA29113E43EB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

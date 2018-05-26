@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_2" id="456C17E9-CAAA-DA83-BB47-C1C2343803CE" containerWithKeyObject="788ED142-7581-8C25-9E1F-6A6F43A3E46F" localFKIndex="2EF33EE9-2459-B3B8-ACA8-39EC0CD4D6BA" name="EVENT_AREA_FK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-26 04:00:43 UTC</createdTime>
+<generatorID>35B4F94B-FB82-352A-9A74-9407A109DBB1</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<referredTableLongName>TB_EVENT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9106BEA8-EA7F-5AAB-CF2D-96AD82AD62DF</referredTableID>
+<keyObject>1783D8B2-16C1-8921-3EFC-5DC30C4F65C6</keyObject>
+<referredKeyID>1783D8B2-16C1-8921-3EFC-5DC30C4F65C6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>event_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

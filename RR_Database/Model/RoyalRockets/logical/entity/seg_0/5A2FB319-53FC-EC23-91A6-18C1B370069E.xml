@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5A2FB319-53FC-EC23-91A6-18C1B370069E" name="TB_AGENDA">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-24 05:29:30 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="wrt_uid" id="2FF6AB47-ED4F-BD43-EFC9-ED570C135E7B">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-24 05:31:45 UTC</createdTime>
+<generatorID>5A6DD785-6560-5F61-B858-4E63D93B986E</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<referedAttribute>20D8538E-292D-501B-21CB-B2A660DE888A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="area_id" id="6D2C4F6C-CCA3-3F3B-F2C5-7F735CC1D585">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-24 05:32:34 UTC</createdTime>
+<generatorID>9B35C24E-8F2A-7C4C-3EEF-B88FEAF7DBD0</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+</engineerTo>
+<referedAttribute>D1625859-6C4F-C1BF-82A2-3978BBDF680E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3331CA5E-709C-7F6F-D0E4-05559A1EAD49" name="TB_AGENDA PK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-24 05:31:45 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2FF6AB47-ED4F-BD43-EFC9-ED570C135E7B</attributeRef>
+<attributeRef>6D2C4F6C-CCA3-3F3B-F2C5-7F735CC1D585</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
