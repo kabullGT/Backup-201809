@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AREA_SUB_EVENT_FK" directorySegmentName="seg_0" id="8241097D-F9DE-9D7E-84BA-57AFD516BD8C">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-29 00:24:08 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<sourcePk>C6D8DA37-80A0-BFA1-895A-3A90B2915F5F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F7C70F3A-2788-8C50-257D-155254E03450</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>13DC6270-B675-5E16-9729-9F8CE63171CA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

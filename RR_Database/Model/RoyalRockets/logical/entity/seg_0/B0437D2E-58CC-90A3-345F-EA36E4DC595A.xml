@@ -4,7 +4,7 @@
 <createdTime>2018-03-27 18:05:40 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,20 +20,19 @@
 <createdTime>2018-03-27 18:26:08 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="event_name" id="1C494298-A53E-13CA-33AF-F6BDE5317071">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-03-27 18:26:14 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -47,7 +46,7 @@
 <createdTime>2018-03-27 18:26:22 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -61,7 +60,7 @@
 <createdTime>2018-03-27 18:26:29 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -75,7 +74,7 @@
 <createdTime>2018-03-27 18:26:35 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -89,12 +88,38 @@
 <createdTime>2018-03-27 18:28:29 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datetime_open" id="C09E45C9-F460-DC40-FE52-4510D3DB434C">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-28 22:56:59 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datetime_close" id="1DB51700-F2CE-6D86-84C4-CBD853514EA8">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-28 22:56:59 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -103,9 +128,8 @@
 <createdBy>Kabull</createdBy>
 <createdTime>2018-03-27 18:29:25 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="false"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

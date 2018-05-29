@@ -4,7 +4,7 @@
 <createdTime>2018-03-27 18:50:25 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,83 +21,69 @@
 <generatorID>9154D574-B91A-E5B3-46CA-651119BB72B2</generatorID>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <referedAttribute>3607F860-4263-1087-79C0-4AF2D343096E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="area_id" id="1C17F87D-98B3-829D-B793-AEBA81BF6C5F">
-<createdBy>Kabull</createdBy>
-<createdTime>2018-03-27 23:01:51 UTC</createdTime>
-<generatorID>0B365D14-4358-5BE0-AAB6-34E066118609</generatorID>
-<ownerDesignName>RoyalRockets</ownerDesignName>
-<engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
-</engineerTo>
-<referedAttribute>D1625859-6C4F-C1BF-82A2-3978BBDF680E</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="allowed" id="AF675197-944F-E082-7567-74CA05DA843A">
+<Attribute name="wrt_uid" id="4DB52C1D-542B-8E2B-490C-97D245BCA22D">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-03-27 22:35:59 UTC</createdTime>
+<createdTime>2018-05-27 17:55:42 UTC</createdTime>
+<generatorID>AB97261A-C767-644C-5BB8-08AF973E1BB3</generatorID>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="in_time" id="7E1B7A3F-C70A-95AD-FB54-A2D463CF1F52">
-<createdBy>Kabull</createdBy>
-<createdTime>2018-03-27 20:01:12 UTC</createdTime>
-<ownerDesignName>RoyalRockets</ownerDesignName>
-<engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="out_time" id="A2C6933E-4592-71B0-7E27-64FFE7411EA8">
-<createdBy>Kabull</createdBy>
-<createdTime>2018-03-27 20:01:44 UTC</createdTime>
-<ownerDesignName>RoyalRockets</ownerDesignName>
-<engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="wrt_uid" id="D2C71C5C-4EF8-D38E-958E-3E973D9AC9C0">
-<createdBy>Kabull</createdBy>
-<createdTime>2018-03-28 09:06:36 UTC</createdTime>
-<generatorID>F532B4BB-A455-B7B2-D771-F5A9BD24D660</generatorID>
-<ownerDesignName>RoyalRockets</ownerDesignName>
-<engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <referedAttribute>20D8538E-292D-501B-21CB-B2A660DE888A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="checkin" id="7E1B7A3F-C70A-95AD-FB54-A2D463CF1F52">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-03-27 20:01:12 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="checkout" id="A2C6933E-4592-71B0-7E27-64FFE7411EA8">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-03-27 20:01:44 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sub_event_id" id="E5741467-2BE8-C5E8-6A54-E55BDF6CFB3A">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-29 00:31:59 UTC</createdTime>
+<generatorID>6A7DA55D-E0EB-8BC1-3375-A4E8615D0900</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<referedAttribute>A3FB2D0C-53E5-E6E6-C5A6-F588C036D805</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -105,15 +91,14 @@
 <createdBy>Kabull</createdBy>
 <createdTime>2018-03-27 18:50:54 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="false"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>1C17F87D-98B3-829D-B793-AEBA81BF6C5F</attributeRef>
 <attributeRef>3622100C-88EF-E1B2-FCC5-BD7B8D92F3A5</attributeRef>
-<attributeRef>D2C71C5C-4EF8-D38E-958E-3E973D9AC9C0</attributeRef>
+<attributeRef>4DB52C1D-542B-8E2B-490C-97D245BCA22D</attributeRef>
+<attributeRef>E5741467-2BE8-C5E8-6A54-E55BDF6CFB3A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9DCF8692-1D9E-EA2D-4E51-B59C34CFCA62" name="TB_WRISTBAND_AREA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9DCF8692-1D9E-EA2D-4E51-B59C34CFCA62" name="TB_WRISTBAND_SUB_EVENT">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-05-24 04:00:42 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <generatorID>E953874F-491C-27BE-70ED-A37A648DF51E</generatorID>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <referedAttribute>4B2D88F7-D610-BD99-1515-8306CE3030DF</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -30,15 +30,15 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="area_id" id="DB40DCF5-02AB-534D-5527-EB735B5A6000">
+<Attribute name="sub_event_id" id="8E05E127-C3A5-DC80-1CB9-C52C3D3AF723">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-05-24 04:13:12 UTC</createdTime>
-<generatorID>9BF20C20-FC1A-2AD5-0DE8-716822F9B79A</generatorID>
+<createdTime>2018-05-29 00:32:39 UTC</createdTime>
+<generatorID>F7D2511C-DF28-3F9E-5376-25D31E808C86</generatorID>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
-<referedAttribute>D1625859-6C4F-C1BF-82A2-3978BBDF680E</referedAttribute>
+<referedAttribute>A3FB2D0C-53E5-E6E6-C5A6-F588C036D805</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>
@@ -50,14 +50,13 @@
 <createdBy>Kabull</createdBy>
 <createdTime>2018-05-24 04:01:07 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="false"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>019ECF0E-8DCD-3EDA-2905-B64188FD7321</attributeRef>
-<attributeRef>DB40DCF5-02AB-534D-5527-EB735B5A6000</attributeRef>
+<attributeRef>8E05E127-C3A5-DC80-1CB9-C52C3D3AF723</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

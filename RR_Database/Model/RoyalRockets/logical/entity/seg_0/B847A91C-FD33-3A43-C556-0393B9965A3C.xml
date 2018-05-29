@@ -4,7 +4,7 @@
 <createdTime>2018-05-24 04:44:31 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,8 +20,22 @@
 <createdTime>2018-05-24 04:45:00 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="module_id" id="A13AC554-BFB5-8D0C-3FE3-EF4BCE88FB30">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-29 01:07:53 UTC</createdTime>
+<generatorID>A9FAD1AA-94F8-A961-63DE-B304BA7BB4B9</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<referedAttribute>22C320BD-5B46-DC55-5426-B178448144BC</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>
@@ -32,7 +46,7 @@
 <createdTime>2018-05-24 05:04:57 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,7 +60,7 @@
 <createdTime>2018-05-24 05:05:24 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -61,13 +75,13 @@
 <createdBy>Kabull</createdBy>
 <createdTime>2018-05-24 04:56:27 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="false"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>E035001F-4B56-A433-ECCF-1C3843418CEE</attributeRef>
+<attributeRef>A13AC554-BFB5-8D0C-3FE3-EF4BCE88FB30</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

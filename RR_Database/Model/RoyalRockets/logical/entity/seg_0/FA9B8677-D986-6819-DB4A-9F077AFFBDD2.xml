@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FA9B8677-D986-6819-DB4A-9F077AFFBDD2" name="TB_WRT_COLOR">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FA9B8677-D986-6819-DB4A-9F077AFFBDD2" name="TB_WRT_SUB_TYPE">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-03-27 19:50:12 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,25 +15,24 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="wrt_color_id" id="20959083-4F09-44A4-22A7-8B3313757A06">
+<Attribute name="wrt_sub_type_id" id="20959083-4F09-44A4-22A7-8B3313757A06">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-03-27 19:50:25 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>
-<dataTypeSize>3</dataTypeSize>
-<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="color_name" id="BF1BAF1C-3211-5114-E3D1-C203AAC68906">
+<Attribute name="name" id="BF1BAF1C-3211-5114-E3D1-C203AAC68906">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-03-27 19:50:53 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="true"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -42,15 +41,28 @@
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="dsc" id="ED37B741-E9B2-815D-EED5-7457B320812B">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-29 00:52:33 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="49586829-9E8B-19F8-C40A-5113D95F47F5" name="TB_WRT_COLOR PK">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-03-27 19:51:18 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="BACE4071-68AE-993D-C2B3-3F3319970485" value="false"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>20959083-4F09-44A4-22A7-8B3313757A06</newElementsIDs>

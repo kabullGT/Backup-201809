@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EVENT_WRISTBAND_FK" directorySegmentName="seg_0" id="B2B921FC-4063-6AF2-9320-6A9BD3939FEC">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EVENT_DAY_WRISTBAND_FK" directorySegmentName="seg_0" id="B2B921FC-4063-6AF2-9320-6A9BD3939FEC">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-05-24 04:04:52 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
-<item key="EE21DD7E-E3A3-649F-E68B-E967F42E3022" value="true"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <sourcePk>F3EAF26D-2445-0E88-1CB2-C98E75F11C68</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>B0437D2E-58CC-90A3-345F-EA36E4DC595A</sourceEntity>
+<sourceEntity>EAE14DA6-BA75-5FBA-BA8B-0CCDAB53792F</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>523AB772-96BA-2269-1039-116A04BA974B</targetEntity>
 <transferable>true</transferable>

@@ -81,20 +81,20 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="event_id" id="6F2C092D-8A4A-808D-C475-F4B5CD22B63F">
+<Attribute name="event_day_id" id="2171A7D6-0EE2-2D45-993B-352E718CCDB2">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-03-27 23:09:32 UTC</createdTime>
-<generatorID>35B4F94B-FB82-352A-9A74-9407A109DBB1</generatorID>
+<createdTime>2018-05-29 00:38:10 UTC</createdTime>
+<generatorID>07ACD4DF-D928-7CC3-54E2-BEBF95DEDDE0</generatorID>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
 <item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
-<referedAttribute>7C0D6644-089D-6DE5-EC1C-7DB195155D01</referedAttribute>
+<referedAttribute>3607F860-4263-1087-79C0-4AF2D343096E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

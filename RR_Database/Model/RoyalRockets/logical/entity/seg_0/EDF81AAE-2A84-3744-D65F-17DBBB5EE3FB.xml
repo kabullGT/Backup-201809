@@ -27,21 +27,6 @@
 <logicalDatatype>LOGDT057</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="event_id" id="A3FEECE4-F8D7-CD1E-8ABA-879A92ECD215">
-<createdBy>Kabull</createdBy>
-<createdTime>2018-05-24 05:45:04 UTC</createdTime>
-<generatorID>4B13E163-157B-3622-DD7E-150B2ADB328A</generatorID>
-<ownerDesignName>RoyalRockets</ownerDesignName>
-<engineerTo>
-<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
-</engineerTo>
-<referedAttribute>7C0D6644-089D-6DE5-EC1C-7DB195155D01</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="wrt_uid" id="77D0914A-8D78-F825-1B79-F7DE32130FAB">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-05-24 05:45:15 UTC</createdTime>
@@ -110,6 +95,21 @@
 <logicalDatatype>LOGDT057</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="event_day_id" id="ED201ECD-11E1-B883-8D3E-441F0FC2CBAF">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-29 00:39:03 UTC</createdTime>
+<generatorID>4B13E163-157B-3622-DD7E-150B2ADB328A</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<referedAttribute>3607F860-4263-1087-79C0-4AF2D343096E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="28DD71AE-9BAC-E7D2-3D10-D2747EECCD75" name="TB_ORDER PK">
@@ -122,9 +122,9 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>8169F46A-1CEA-2913-D715-3135BEEF6E0C</attributeRef>
-<attributeRef>A3FEECE4-F8D7-CD1E-8ABA-879A92ECD215</attributeRef>
 <attributeRef>77D0914A-8D78-F825-1B79-F7DE32130FAB</attributeRef>
 <attributeRef>4AF2C9F3-547A-6204-5A17-206ADD492A0A</attributeRef>
+<attributeRef>ED201ECD-11E1-B883-8D3E-441F0FC2CBAF</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

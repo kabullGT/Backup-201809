@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EVENT_TRANSACTION_FK" directorySegmentName="seg_0" id="4B13E163-157B-3622-DD7E-150B2ADB328A">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EVENT_DAY_TRANSACTION_FK" directorySegmentName="seg_0" id="4B13E163-157B-3622-DD7E-150B2ADB328A">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-03-27 23:26:41 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
-<item key="409C0A09-28DD-3875-6C5E-784B8E054443" value="true"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
-<sourcePk>F3EAF26D-2445-0E88-1CB2-C98E75F11C68</sourcePk>
+<sourcePk>D83E029A-18CC-6D6F-A21C-CDE4A79B70CC</sourcePk>
 <identifying>true</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>B0437D2E-58CC-90A3-345F-EA36E4DC595A</sourceEntity>
+<sourceEntity>EAE14DA6-BA75-5FBA-BA8B-0CCDAB53792F</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>EDF81AAE-2A84-3744-D65F-17DBBB5EE3FB</targetEntity>
 <transferable>true</transferable>

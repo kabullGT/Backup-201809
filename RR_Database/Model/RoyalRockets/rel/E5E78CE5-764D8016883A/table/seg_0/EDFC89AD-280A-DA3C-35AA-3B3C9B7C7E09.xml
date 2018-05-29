@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EDFC89AD-280A-DA3C-35AA-3B3C9B7C7E09" name="TB_COPARTNER_PRODUCT">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-29 01:18:49 UTC</createdTime>
+<generatorID>C4C44C8E-717C-0360-1BD5-5763687E255E</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="copartner_id" id="0ABE3E78-1E80-8B1F-D384-8076781C48A3">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-29 01:18:49 UTC</createdTime>
+<generatorID>C62E56A2-0F2C-E30A-189E-8F963AB084BE</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66339B80-28C9-CC5A-9AD3-E9655F8746D4" referredColumn="361CE758-B793-DE0F-5D00-0FA54C092FDD"/>
+</associations>
+</Column>
+<Column name="product_id" id="DC120A64-AA71-8649-F913-E817C92797AC">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-29 01:18:49 UTC</createdTime>
+<generatorID>A6DF051D-A801-97D2-4D99-E48FCD4A66FE</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="094FA047-8E27-3081-CFE8-E81962F533D5" referredColumn="41ACA51D-F9E9-2971-DC41-71ADBA919B46"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6F537D0-9CEA-1393-96E2-F8B29F96A262" name="TB_COPARTNER_PRODUCT_PK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-29 01:18:49 UTC</createdTime>
+<generatorID>293F6AAF-E126-37E3-0540-C0E273D1342E</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0ABE3E78-1E80-8B1F-D384-8076781C48A3"/>
+<colUsage columnID="DC120A64-AA71-8649-F913-E817C92797AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4380C151-0768-7F2E-BBDF-860861CCEA4B" name="COPARTNET_PRODUCT_FK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-29 01:18:49 UTC</createdTime>
+<generatorID>5A921669-4D1D-5BBF-084A-C1AFAB85046F</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0ABE3E78-1E80-8B1F-D384-8076781C48A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="780672B1-A93E-BEFD-85B2-15FB2E10692E" name="PRODUCT_COPARTNER_FK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-29 01:18:49 UTC</createdTime>
+<generatorID>2B8631F6-8477-D765-7A7D-6A1F9A864D5F</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC120A64-AA71-8649-F913-E817C92797AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
