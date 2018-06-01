@@ -85,6 +85,35 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="event_day_id" id="67F44A31-7C68-749F-39B6-C96FF283F82C">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-31 03:05:57 UTC</createdTime>
+<generatorID>B2B921FC-4063-6AF2-9320-6A9BD3939FEC</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<referedAttribute>3607F860-4263-1087-79C0-4AF2D343096E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wristband_status_id" id="2DBFAEC5-6479-ED85-AF90-580D59672004">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-01 18:46:46 UTC</createdTime>
+<generatorID>4C2FC198-29A5-D4B4-71FD-34A2BCB99EA8</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<referedAttribute>AFBDA145-9A7C-DE9B-43CD-CC4C892C66F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="368EE62C-6131-FEC3-7D46-81DD2F4ABAB2" name="TB_WRISTBAND PK">

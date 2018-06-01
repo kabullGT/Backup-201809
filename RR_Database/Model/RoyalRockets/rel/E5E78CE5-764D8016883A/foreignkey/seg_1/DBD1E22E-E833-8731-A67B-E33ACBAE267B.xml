@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="DBD1E22E-E833-8731-A67B-E33ACBAE267B" containerWithKeyObject="0B6A93E9-11DF-E1A2-081E-E9CC1C84F733" localFKIndex="7171A0DD-5089-287E-078B-F728E5C7B2E7" name="SALEPOINT_ORDER_FK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-01 18:49:17 UTC</createdTime>
+<generatorID>ACC2B5C9-FA6A-D49F-2D51-DAA00D3B1A34</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<referredTableLongName>TB_SALEPOINT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>94F71A46-08D9-6F2A-490E-A62979C294A2</referredTableID>
+<keyObject>C99BC6CD-CCB7-4A7F-9DD2-2F0E3E6111DC</keyObject>
+<referredKeyID>C99BC6CD-CCB7-4A7F-9DD2-2F0E3E6111DC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_salepoint</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

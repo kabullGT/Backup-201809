@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD5FF25C-0262-4FFE-6EEC-8D1BCAEA845A" name="TB_CLIENT_EVENT">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-01 18:49:17 UTC</createdTime>
+<generatorID>2406AB25-4BE5-23E8-E437-16E4FA606B76</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="client_ruid" id="DB2E5562-44F4-CA65-F088-1D885C180C7B">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-01 18:49:17 UTC</createdTime>
+<generatorID>F1CE5EB3-8723-86BB-5DB4-0C029F4EE008</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC655623-C0C4-B646-0E1D-D5148836C674" referredColumn="7CC4FC1F-0384-A39D-D1D7-72B36D324984"/>
+</associations>
+</Column>
+<Column name="event_id" id="EA788BAD-BF6A-84F7-2146-1FAE5D48B45B">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-01 18:49:17 UTC</createdTime>
+<generatorID>4B198EF3-90B6-0420-379C-AA29113E43EB</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="event_day_id" id="C64D6AEF-ECC4-B4A7-B79D-66462187988D">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-01 18:49:17 UTC</createdTime>
+<generatorID>D8AA1DB2-928C-50EA-CD71-3156B4FC07F8</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58DA525B-0868-1FC1-3FC7-0F93C2C2431C" referredColumn="6DB1CC51-5940-28AF-9DE1-7B600A427B0C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2D7EF25-331C-265A-0C80-24F1181B699A" name="TB_CLIENT_EVENT_PK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-01 18:49:17 UTC</createdTime>
+<generatorID>DDE2FE75-DDD5-1743-DB08-853ED8C1A0AB</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB2E5562-44F4-CA65-F088-1D885C180C7B"/>
+<colUsage columnID="C64D6AEF-ECC4-B4A7-B79D-66462187988D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFAFDB5F-21E1-9D5B-954C-99A2DD638CE7" name="CIENT_EVENT_FK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-01 18:49:17 UTC</createdTime>
+<generatorID>23A932BC-CC62-AF5F-734F-FB869CEF3BC2</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB2E5562-44F4-CA65-F088-1D885C180C7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DADB20C-CCA5-18D5-BF33-A6193AAF78FD" name="EVENT_DAY_CLIENT_FK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-01 18:49:17 UTC</createdTime>
+<generatorID>1FCB85BE-4425-36A1-D304-F0AFA6C79D1C</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C64D6AEF-ECC4-B4A7-B79D-66462187988D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
