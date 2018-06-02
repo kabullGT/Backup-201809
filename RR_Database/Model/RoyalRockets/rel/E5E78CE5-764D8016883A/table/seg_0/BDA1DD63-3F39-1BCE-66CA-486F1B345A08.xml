@@ -130,13 +130,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="E058D460-E5B8-E4DF-7DF9-2FCFC3237C50" referredColumn="6DB1CC51-5940-28AF-9DE1-7B600A427B0C"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -150,17 +146,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="C7E45BBE-4798-7C1A-27F4-007D0287BF09"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="431F0EA8-0BBC-0D4E-3DDE-01BE5AC1122F" name="EVENT_DAY_COPARTNER_FK">
-<createdBy>Kabull</createdBy>
-<createdTime>2018-06-01 18:49:17 UTC</createdTime>
-<generatorID>76B378C6-8DBC-48F3-9F9F-0D339B67F73F</generatorID>
-<ownerDesignName>RoyalRockets</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="BA05056A-358B-6576-D8E5-7F2A209A19B8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

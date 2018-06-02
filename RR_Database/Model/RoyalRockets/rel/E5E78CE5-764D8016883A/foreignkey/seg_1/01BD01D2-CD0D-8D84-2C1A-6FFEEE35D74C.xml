@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E058D460-E5B8-E4DF-7DF9-2FCFC3237C50" containerWithKeyObject="BDA1DD63-3F39-1BCE-66CA-486F1B345A08" localFKIndex="431F0EA8-0BBC-0D4E-3DDE-01BE5AC1122F" name="EVENT_DAY_COPARTNER_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="01BD01D2-CD0D-8D84-2C1A-6FFEEE35D74C" containerWithKeyObject="956A78C0-D56F-82AB-DF1E-4BC73810228E" localFKIndex="4B4432D6-8ACD-3D12-4B81-D39A5AC55947" name="DAY_COPARTNER_FK">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-06-01 18:49:17 UTC</createdTime>
+<createdTime>2018-06-02 00:33:09 UTC</createdTime>
 <generatorID>76B378C6-8DBC-48F3-9F9F-0D339B67F73F</generatorID>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <referredTableLongName>TB_EVENT_DAY</referredTableLongName>

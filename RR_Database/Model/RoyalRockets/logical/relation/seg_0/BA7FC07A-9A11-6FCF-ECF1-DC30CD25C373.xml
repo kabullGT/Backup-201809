@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DAY_COPARTNER_FK" directorySegmentName="seg_0" id="76B378C6-8DBC-48F3-9F9F-0D339B67F73F">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COPARTNER_DAY_FK" directorySegmentName="seg_0" id="BA7FC07A-9A11-6FCF-ECF1-DC30CD25C373">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-03-27 23:22:43 UTC</createdTime>
+<createdTime>2018-06-02 00:31:14 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
 <item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
-<sourcePk>D83E029A-18CC-6D6F-A21C-CDE4A79B70CC</sourcePk>
-<identifying>false</identifying>
+<sourcePk>80417B25-A793-B029-0E21-37FE50E73B4A</sourcePk>
+<identifying>true</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>EAE14DA6-BA75-5FBA-BA8B-0CCDAB53792F</sourceEntity>
+<sourceEntity>6E58B208-6C0B-92F7-C55F-5E415667A3FF</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>C46F582F-6BA3-E530-26CC-564C5608BA25</targetEntity>
 <transferable>true</transferable>

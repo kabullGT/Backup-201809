@@ -40,7 +40,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="order_datetime" id="4AF2C9F3-547A-6204-5A17-206ADD492A0A">
 <createdBy>Kabull</createdBy>
@@ -108,7 +108,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -116,8 +116,9 @@
 <createdBy>Kabull</createdBy>
 <createdTime>2018-05-24 05:38:41 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

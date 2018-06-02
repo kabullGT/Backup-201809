@@ -63,6 +63,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="DB2E5562-44F4-CA65-F088-1D885C180C7B"/>
+<colUsage columnID="EA788BAD-BF6A-84F7-2146-1FAE5D48B45B"/>
 <colUsage columnID="C64D6AEF-ECC4-B4A7-B79D-66462187988D"/>
 </indexColumnUsage>
 </ind_PK_UK>

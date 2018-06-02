@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="35ABB5EC-B085-751F-AB17-F350647FDF83" name="TB_LOG_TYPE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C46F582F-6BA3-E530-26CC-564C5608BA25" name="TB_DAY_COPARTNER">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-05-24 00:11:32 UTC</createdTime>
+<createdTime>2018-06-02 00:29:24 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
 <item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
@@ -15,59 +15,47 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="log_type_id" id="6009823F-745E-2B05-A23B-8AD2393A8C79">
+<Attribute name="event_day_id" id="3848852D-7942-F35B-2342-8194E70885E8">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-05-24 00:12:48 UTC</createdTime>
+<createdTime>2018-06-02 00:29:54 UTC</createdTime>
+<generatorID>76B378C6-8DBC-48F3-9F9F-0D339B67F73F</generatorID>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
 <item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
+<referedAttribute>3607F860-4263-1087-79C0-4AF2D343096E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="copartner_id" id="CB148305-1958-AFDB-2A79-AA0225901A12">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-02 00:31:14 UTC</createdTime>
+<generatorID>BA7FC07A-9A11-6FCF-ECF1-DC30CD25C373</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<referedAttribute>1EF07CAC-7FEE-12C6-50D2-04A5EAA983CB</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="log_type" id="05E7D784-8159-1885-3F1B-76803BC8686E">
-<createdBy>Kabull</createdBy>
-<createdTime>2018-05-24 00:13:07 UTC</createdTime>
-<ownerDesignName>RoyalRockets</ownerDesignName>
-<engineerTo>
-<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="log_type_dsc" id="F193B319-136E-9E5C-4E91-A1A97C4D5BE5">
-<createdBy>Kabull</createdBy>
-<createdTime>2018-05-24 00:14:11 UTC</createdTime>
-<ownerDesignName>RoyalRockets</ownerDesignName>
-<engineerTo>
-<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="93C1C434-9148-9C8D-7B94-F57653777D02" name="tb_log_type PK">
+<identifier id="408FA5C1-050B-1BF9-C89E-CBC990A1C4EE" name="TB_EVENT_DAY_COPARTNER PK">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-05-24 00:23:21 UTC</createdTime>
+<createdTime>2018-06-02 00:31:14 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="false"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>6009823F-745E-2B05-A23B-8AD2393A8C79</attributeRef>
+<attributeRef>CB148305-1958-AFDB-2A79-AA0225901A12</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

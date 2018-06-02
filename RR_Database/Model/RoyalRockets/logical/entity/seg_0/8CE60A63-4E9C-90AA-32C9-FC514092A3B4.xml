@@ -28,7 +28,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="wrt_uid" id="4DB52C1D-542B-8E2B-490C-97D245BCA22D">
 <createdBy>Kabull</createdBy>
@@ -43,7 +43,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="checkin" id="7E1B7A3F-C70A-95AD-FB54-A2D463CF1F52">
 <createdBy>Kabull</createdBy>
@@ -91,8 +91,9 @@
 <createdBy>Kabull</createdBy>
 <createdTime>2018-03-27 18:50:54 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

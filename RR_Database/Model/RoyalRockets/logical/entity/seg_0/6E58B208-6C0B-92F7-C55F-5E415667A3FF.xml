@@ -140,14 +140,30 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="event_day_id" id="61B7C985-2E96-36F1-14D9-AB3202F9B46F">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-31 03:05:57 UTC</createdTime>
+<generatorID>76B378C6-8DBC-48F3-9F9F-0D339B67F73F</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<referedAttribute>3607F860-4263-1087-79C0-4AF2D343096E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="80417B25-A793-B029-0E21-37FE50E73B4A" name="TB_COPARTNER PK">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-03-27 22:53:02 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

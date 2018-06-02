@@ -80,7 +80,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="trn_id1" id="79ABB678-1ACB-5037-B674-3375C8158D14">
 <createdBy>Kabull</createdBy>
@@ -174,8 +174,9 @@
 <createdBy>Kabull</createdBy>
 <createdTime>2018-05-24 06:19:45 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

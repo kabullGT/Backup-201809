@@ -42,7 +42,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="copartner_id" id="DF1EDA63-95FE-8B98-0CA8-9A55A2994571">
 <createdBy>Kabull</createdBy>
@@ -126,7 +126,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -134,18 +134,19 @@
 <createdBy>Kabull</createdBy>
 <createdTime>2018-05-24 06:05:12 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>EDBF9E36-6DCF-2A81-BA28-A2C880F179A3</attributeRef>
 <attributeRef>AAF2FED0-2A42-0003-E886-CFFF14E3EAFF</attributeRef>
 <attributeRef>2EC6D3B9-EE45-E91F-E53F-AE07941EFEE6</attributeRef>
+<attributeRef>0F5A40F9-355B-A4A5-239B-ADE00DC07B13</attributeRef>
 <attributeRef>DF1EDA63-95FE-8B98-0CA8-9A55A2994571</attributeRef>
 <attributeRef>E9C093F6-1FA2-C2DC-B72B-CAFDBF000F70</attributeRef>
 <attributeRef>5A75B681-A1F1-E0B2-8375-EB53674C2B91</attributeRef>
-<attributeRef>0F5A40F9-355B-A4A5-239B-ADE00DC07B13</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
