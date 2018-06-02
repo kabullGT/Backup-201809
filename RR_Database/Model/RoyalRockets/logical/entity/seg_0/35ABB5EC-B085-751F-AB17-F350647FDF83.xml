@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT057</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="log_type" id="05E7D784-8159-1885-3F1B-76803BC8686E">
+<Attribute name="name" id="05E7D784-8159-1885-3F1B-76803BC8686E">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-05-24 00:13:07 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
@@ -41,7 +41,7 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="log_type_dsc" id="F193B319-136E-9E5C-4E91-A1A97C4D5BE5">
+<Attribute name="dsc" id="F193B319-136E-9E5C-4E91-A1A97C4D5BE5">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-05-24 00:14:11 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>

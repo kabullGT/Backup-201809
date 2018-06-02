@@ -35,8 +35,11 @@
 <item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="copartner_id" id="27EA7D61-6771-35A7-1FA5-2E092D63206C">
 <createdBy>Kabull</createdBy>
