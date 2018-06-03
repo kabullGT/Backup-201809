@@ -28,7 +28,7 @@
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="client_ruid" id="650E983C-E7FB-467C-91C3-CF2803C19508">
+<Attribute name="atendee_ruid" id="650E983C-E7FB-467C-91C3-CF2803C19508">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-03-28 09:01:51 UTC</createdTime>
 <generatorID>769036C4-5A24-2F27-BE75-5D28C7D6448C</generatorID>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="6F817C1C-29B3-BE38-C1D1-53F9190A3AEF" name="TB_CLIENT_EVENT">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="6F817C1C-29B3-BE38-C1D1-53F9190A3AEF" name="TB_ATENDEE_EVENT">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-06-02 01:42:12 UTC</createdTime>
 <generatorID>2406AB25-4BE5-23E8-E437-16E4FA606B76</generatorID>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="client_ruid" id="C62DDF02-DB10-3390-E524-6DBEA5EC2622">
+<Column name="atendee_ruid" id="C62DDF02-DB10-3390-E524-6DBEA5EC2622">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-06-02 01:42:12 UTC</createdTime>
 <generatorID>F1CE5EB3-8723-86BB-5DB4-0C029F4EE008</generatorID>
@@ -63,6 +63,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="C62DDF02-DB10-3390-E524-6DBEA5EC2622"/>
+<colUsage columnID="B1E0F98E-388E-4ACE-008A-A40E72E92720"/>
 <colUsage columnID="D032195B-7EFC-0FF6-0D14-5361BC281596"/>
 </indexColumnUsage>
 </ind_PK_UK>

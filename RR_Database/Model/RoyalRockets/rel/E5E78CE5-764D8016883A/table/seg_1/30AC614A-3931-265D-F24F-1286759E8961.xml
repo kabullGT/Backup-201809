@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="30AC614A-3931-265D-F24F-1286759E8961" name="TB_CLIENT">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="30AC614A-3931-265D-F24F-1286759E8961" name="TB_ATENDEE">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-06-02 01:42:12 UTC</createdTime>
 <generatorID>FAD4753E-AE6E-89F1-5C85-0D84A1D4DC12</generatorID>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="client_ruid" id="38586106-B27B-DF03-24F0-224989D566D0">
+<Column name="atendee_ruid" id="38586106-B27B-DF03-24F0-224989D566D0">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-06-02 01:42:12 UTC</createdTime>
 <generatorID>E8AEA677-B332-6167-37CE-F50AD7BEAC95</generatorID>
@@ -84,7 +84,7 @@
 <ownDataTypeParameters>70,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="address_zipcode" id="B4E6925F-5E84-D364-C354-95C70A7BA03E">
+<Column name="zipcode" id="B4E6925F-5E84-D364-C354-95C70A7BA03E">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-06-02 01:42:12 UTC</createdTime>
 <generatorID>5D588411-F357-8811-4542-7E3F70B34BB9</generatorID>

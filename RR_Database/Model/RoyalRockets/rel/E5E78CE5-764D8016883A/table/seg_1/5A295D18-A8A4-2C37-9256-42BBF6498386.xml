@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="5A295D18-A8A4-2C37-9256-42BBF6498386" name="TB_AGENDA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="5A295D18-A8A4-2C37-9256-42BBF6498386" name="TB_CALENDAR">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-06-02 01:42:12 UTC</createdTime>
 <generatorID>5A2FB319-53FC-EC23-91A6-18C1B370069E</generatorID>

@@ -20,7 +20,7 @@
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="client_ruid" id="72E63415-BB9B-A4C8-445D-F5B74557D181">
+<Column name="atendee_ruid" id="72E63415-BB9B-A4C8-445D-F5B74557D181">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-06-02 01:42:13 UTC</createdTime>
 <generatorID>650E983C-E7FB-467C-91C3-CF2803C19508</generatorID>

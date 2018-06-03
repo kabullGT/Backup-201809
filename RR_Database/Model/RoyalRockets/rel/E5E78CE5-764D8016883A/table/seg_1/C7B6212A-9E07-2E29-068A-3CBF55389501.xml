@@ -45,7 +45,7 @@
 <ownDataTypeParameters>70,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="zip" id="F55236B2-47ED-E454-6FE1-D6C74A9988E5">
+<Column name="zipcode" id="F55236B2-47ED-E454-6FE1-D6C74A9988E5">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-06-02 01:42:12 UTC</createdTime>
 <generatorID>7E792B97-6E26-DC49-8369-EFA22AD81561</generatorID>

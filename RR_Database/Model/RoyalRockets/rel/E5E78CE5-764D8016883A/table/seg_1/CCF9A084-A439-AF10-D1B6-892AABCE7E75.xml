@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="CCF9A084-A439-AF10-D1B6-892AABCE7E75" name="TB_CLIENT_ID_TYPE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="CCF9A084-A439-AF10-D1B6-892AABCE7E75" name="TB_ATENDEE_ID_TYPE">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-06-02 01:42:12 UTC</createdTime>
 <generatorID>6C24ECC8-90F3-9902-75C6-8C3F0FAB9C65</generatorID>

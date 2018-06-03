@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FAD4753E-AE6E-89F1-5C85-0D84A1D4DC12" name="TB_CLIENT">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FAD4753E-AE6E-89F1-5C85-0D84A1D4DC12" name="TB_ATENDEE">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-03-27 18:03:23 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="client_ruid" id="E8AEA677-B332-6167-37CE-F50AD7BEAC95">
+<Attribute name="atendee_ruid" id="E8AEA677-B332-6167-37CE-F50AD7BEAC95">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-03-27 19:15:25 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
@@ -95,7 +95,7 @@
 <dataTypeSize>70</dataTypeSize>
 <ownDataTypeParameters>70,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="address_zipcode" id="5D588411-F357-8811-4542-7E3F70B34BB9">
+<Attribute name="zipcode" id="5D588411-F357-8811-4542-7E3F70B34BB9">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-03-27 18:20:28 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>

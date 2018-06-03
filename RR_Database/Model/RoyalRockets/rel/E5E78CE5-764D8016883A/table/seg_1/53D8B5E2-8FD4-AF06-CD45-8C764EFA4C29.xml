@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="event_name" id="CED10D6F-3A98-D25B-EFF5-423C0D1D2453">
+<Column name="name" id="CED10D6F-3A98-D25B-EFF5-423C0D1D2453">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-06-02 01:42:12 UTC</createdTime>
 <generatorID>1C494298-A53E-13CA-33AF-F6BDE5317071</generatorID>
@@ -32,7 +32,7 @@
 <ownDataTypeParameters>70,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="event_address" id="99D6BA1D-72FA-CB82-CD3D-0C5B25AFA37A">
+<Column name="address" id="99D6BA1D-72FA-CB82-CD3D-0C5B25AFA37A">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-06-02 01:42:12 UTC</createdTime>
 <generatorID>B16C0689-3AB8-DE6E-3A44-8C4BFC1B2260</generatorID>
@@ -45,7 +45,7 @@
 <ownDataTypeParameters>70,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="event_zip" id="C2219B81-9EC5-67D9-147F-F59BFE249068">
+<Column name="zipcode" id="C2219B81-9EC5-67D9-147F-F59BFE249068">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-06-02 01:42:12 UTC</createdTime>
 <generatorID>06DBCE79-A286-09F5-4FB1-C54A29AE453F</generatorID>
@@ -58,7 +58,7 @@
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="event_country" id="ECF0376F-1E55-25C2-E960-7EF63500110F">
+<Column name="country" id="ECF0376F-1E55-25C2-E960-7EF63500110F">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-06-02 01:42:12 UTC</createdTime>
 <generatorID>C856C0B1-D806-56A3-3DF8-5436E00FC5C1</generatorID>
@@ -71,7 +71,7 @@
 <ownDataTypeParameters>70,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="event_capacity" id="10988392-D86E-F303-4192-37DC6199876F">
+<Column name="capacity" id="10988392-D86E-F303-4192-37DC6199876F">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-06-02 01:42:12 UTC</createdTime>
 <generatorID>AC1BF850-ABF9-086F-7C12-6740D74D341F</generatorID>

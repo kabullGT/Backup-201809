@@ -55,7 +55,7 @@
 <dataTypeSize>70</dataTypeSize>
 <ownDataTypeParameters>70,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="zip" id="7E792B97-6E26-DC49-8369-EFA22AD81561">
+<Attribute name="zipcode" id="7E792B97-6E26-DC49-8369-EFA22AD81561">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-03-27 23:16:56 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
