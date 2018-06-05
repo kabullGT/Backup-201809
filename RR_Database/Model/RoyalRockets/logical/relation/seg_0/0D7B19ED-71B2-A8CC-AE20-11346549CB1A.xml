@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PRODUCT_COMBO_FK" directorySegmentName="seg_0" id="0D7B19ED-71B2-A8CC-AE20-11346549CB1A">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-04 23:58:44 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<sourcePk>9AF6E5AF-BB25-6D62-5637-9B28C5BFB619</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>101D1FC2-8975-FA51-7408-051EDE254FF7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E01EB20A-4B8C-5436-2995-5782D3B90D35</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -134,6 +134,18 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="image_patch" id="E0825E75-2CE3-E96C-78DD-5214E6057A33">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-05 00:16:24 UTC</createdTime>
+<generatorID>9954AD3C-2315-6B62-5212-2538CD4A40C9</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="50AB8C5B-E181-FFBA-6997-75BFD97D3A63" name="TB_COPARTNER_PK">

@@ -71,6 +71,18 @@
 <colAssociation fkAssociation="EAC8CFFA-88C7-FB68-6E1D-3C14B486DFFE" referredColumn="BCD8291B-09DC-9129-95D1-928F14F398A5"/>
 </associations>
 </Column>
+<Column name="image_patch" id="9020B36C-4879-4406-DE5D-5368242D816D">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-05 00:16:24 UTC</createdTime>
+<generatorID>98D8CB5D-4BB3-71B2-BE9E-01570BA2ABF9</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="388BC97A-6BD2-4AFB-E89B-92B4EB81F907" name="TB_SUB_EVENT_PK">
