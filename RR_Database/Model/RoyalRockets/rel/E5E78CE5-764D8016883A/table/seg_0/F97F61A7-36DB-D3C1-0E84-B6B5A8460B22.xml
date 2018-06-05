@@ -1,28 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="54A5BA6C-A82B-BF1E-2D90-7EA4FAE36929" name="TB_LOG">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F97F61A7-36DB-D3C1-0E84-B6B5A8460B22" name="TB_BLACKLIST">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-06-02 01:42:12 UTC</createdTime>
-<generatorID>C44D6063-9DDA-DD2F-F667-F6FCA62C8509</generatorID>
+<createdTime>2018-06-05 02:48:48 UTC</createdTime>
+<generatorID>62E93177-8FFE-805D-3234-673828BD101C</generatorID>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="log_id" id="5E8691D2-8755-F26A-8125-B78ECE0DE1F5">
+<Column name="atendee_ruid" id="DCFE3EB0-F527-FF47-8A4A-38FC2BE64C1D">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-06-02 01:42:12 UTC</createdTime>
-<generatorID>729923FB-8A9B-9AB2-D97D-F46769C0DB48</generatorID>
-<ownerDesignName>RoyalRockets</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="log_type_id" id="98BADAB3-0DD3-F99A-6528-A51EA92D9548">
-<createdBy>Kabull</createdBy>
-<createdTime>2018-06-02 01:42:12 UTC</createdTime>
-<generatorID>D2FB2635-E00B-D3C2-969C-7B7F92944A0C</generatorID>
+<createdTime>2018-06-05 02:48:48 UTC</createdTime>
+<generatorID>965BBCDA-B1B3-5BE1-0ADF-3EB614A5B2D7</generatorID>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,13 +20,13 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="08044F0C-66E4-1B0C-9CF9-DE6CBDE9D57E" referredColumn="5464564E-D881-EF68-5304-091D4515EF88"/>
+<colAssociation fkAssociation="6FFBCEC4-4B67-050C-E118-C5603BFE220E" referredColumn="38586106-B27B-DF03-24F0-224989D566D0"/>
 </associations>
 </Column>
-<Column name="module_id" id="50480840-7123-F787-129A-8AA791760898">
+<Column name="event_id" id="67467FA1-A0A8-38D3-F480-AD175C966395">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-06-02 01:42:12 UTC</createdTime>
-<generatorID>5AF9CB29-2A05-5859-E083-5F785103FFC1</generatorID>
+<createdTime>2018-06-05 02:48:48 UTC</createdTime>
+<generatorID>454C21F1-EF0A-8297-0BCE-31C67A63FD8E</generatorID>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -46,13 +35,13 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="71C56918-81F1-F4E6-DD50-077935B9108E" referredColumn="B36056CF-D38D-948A-1244-E33B938FFF39"/>
+<colAssociation fkAssociation="2B7738D5-9DF6-F07F-4B9D-EAA5FEBF0A7C" referredColumn="DEB5F6FC-A9FF-D3B4-B549-DB2FFB7B55ED"/>
 </associations>
 </Column>
-<Column name="log_dsc" id="0FA8ADAD-DE7A-1F3F-55B0-C0A731EC01C7">
+<Column name="reason" id="814EF2EB-345C-A362-4C69-7D27A2C1F30A">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-06-02 01:42:12 UTC</createdTime>
-<generatorID>46C92088-944F-2569-B0E3-D31B58AE9C02</generatorID>
+<createdTime>2018-06-05 02:48:48 UTC</createdTime>
+<generatorID>2DF1E5F8-6408-FBC0-7A79-961AB0E233DD</generatorID>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -61,40 +50,52 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="deleted" id="ED57E2CC-DD14-34E1-324B-0DBC3A90381B">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-05 02:53:19 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="7F355C49-26A6-ED37-7F95-324B396DDEE9" name="TB_LOG_PK">
+<ind_PK_UK id="4F152788-080B-FC03-178D-2BB383CCEE04" name="TB_BLACKLIST_PK">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-06-02 01:42:12 UTC</createdTime>
-<generatorID>D43459F0-4391-5975-EBA0-2D8560E7AE71</generatorID>
+<createdTime>2018-06-05 02:48:48 UTC</createdTime>
+<generatorID>A5B4AD64-DDFE-F02B-07A1-64E14668EAFA</generatorID>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5E8691D2-8755-F26A-8125-B78ECE0DE1F5"/>
+<colUsage columnID="DCFE3EB0-F527-FF47-8A4A-38FC2BE64C1D"/>
+<colUsage columnID="67467FA1-A0A8-38D3-F480-AD175C966395"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="BD1C2597-097B-3D21-BFB4-F278738F3B61" name="LOG_TYPE_FK">
+<ind_PK_UK id="A21F99CA-4706-9A50-6605-9254D7A97497" name="ATENDEE_BLACKLIST_FK">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-06-02 01:42:13 UTC</createdTime>
-<generatorID>C9842B67-814A-FC8E-6FE7-02B1C7C7690C</generatorID>
+<createdTime>2018-06-05 02:48:48 UTC</createdTime>
+<generatorID>051D2CBC-604F-C5DD-8270-4A949756DB19</generatorID>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="98BADAB3-0DD3-F99A-6528-A51EA92D9548"/>
+<colUsage columnID="DCFE3EB0-F527-FF47-8A4A-38FC2BE64C1D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2C95ED32-BB4E-2176-2133-D83CE293BC66" name="MODULE_LOG_FK">
+<ind_PK_UK id="B7401AEF-95CB-5A61-83BA-FB1FC64A8DFE" name="EVENT_BLACKLIST_FK">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-06-02 01:42:13 UTC</createdTime>
-<generatorID>F10B9BE4-9536-2F82-B9CF-0FF1E484E0E8</generatorID>
+<createdTime>2018-06-05 02:48:48 UTC</createdTime>
+<generatorID>A46FF713-AF11-A8B6-0475-2E4242B20394</generatorID>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="50480840-7123-F787-129A-8AA791760898"/>
+<colUsage columnID="67467FA1-A0A8-38D3-F480-AD175C966395"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

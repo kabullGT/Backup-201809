@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EVENT_BLACKLIST_FK" directorySegmentName="seg_0" id="A46FF713-AF11-A8B6-0475-2E4242B20394">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-05 02:40:43 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<sourcePk>F3EAF26D-2445-0E88-1CB2-C98E75F11C68</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B0437D2E-58CC-90A3-345F-EA36E4DC595A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>62E93177-8FFE-805D-3234-673828BD101C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

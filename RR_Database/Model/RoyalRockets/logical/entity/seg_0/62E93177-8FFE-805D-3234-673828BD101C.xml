@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C44D6063-9DDA-DD2F-F667-F6FCA62C8509" name="TB_LOG">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="62E93177-8FFE-805D-3234-673828BD101C" name="TB_BLACKLIST">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-05-24 07:11:40 UTC</createdTime>
+<createdTime>2018-06-05 02:39:47 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
 <item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
@@ -15,49 +15,37 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="log_id" id="729923FB-8A9B-9AB2-D97D-F46769C0DB48">
+<Attribute name="atendee_ruid" id="965BBCDA-B1B3-5BE1-0ADF-3EB614A5B2D7">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-05-24 07:11:50 UTC</createdTime>
+<createdTime>2018-06-05 02:40:18 UTC</createdTime>
+<generatorID>051D2CBC-604F-C5DD-8270-4A949756DB19</generatorID>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
 <item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
+<referedAttribute>E8AEA677-B332-6167-37CE-F50AD7BEAC95</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="log_type_id" id="D2FB2635-E00B-D3C2-969C-7B7F92944A0C">
+<Attribute name="event_id" id="454C21F1-EF0A-8297-0BCE-31C67A63FD8E">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-05-24 07:12:30 UTC</createdTime>
-<generatorID>C9842B67-814A-FC8E-6FE7-02B1C7C7690C</generatorID>
+<createdTime>2018-06-05 02:40:43 UTC</createdTime>
+<generatorID>A46FF713-AF11-A8B6-0475-2E4242B20394</generatorID>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
 <item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
-<referedAttribute>6009823F-745E-2B05-A23B-8AD2393A8C79</referedAttribute>
+<referedAttribute>7C0D6644-089D-6DE5-EC1C-7DB195155D01</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="module_id" id="5AF9CB29-2A05-5859-E083-5F785103FFC1">
+<Attribute name="reason" id="2DF1E5F8-6408-FBC0-7A79-961AB0E233DD">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-05-24 07:14:05 UTC</createdTime>
-<generatorID>F10B9BE4-9536-2F82-B9CF-0FF1E484E0E8</generatorID>
-<ownerDesignName>RoyalRockets</ownerDesignName>
-<engineerTo>
-<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
-</engineerTo>
-<referedAttribute>22C320BD-5B46-DC55-5426-B178448144BC</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="log_dsc" id="46C92088-944F-2569-B0E3-D31B58AE9C02">
-<createdBy>Kabull</createdBy>
-<createdTime>2018-05-24 07:13:28 UTC</createdTime>
+<createdTime>2018-06-05 02:47:33 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
 <item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
@@ -68,19 +56,32 @@
 <logicalDatatype>LOGDT029</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="deleted" id="E8014694-5950-7845-80C6-B2CF8A7227D9">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-05 02:53:32 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="D43459F0-4391-5975-EBA0-2D8560E7AE71" name="TB_LOG PK">
+<identifier id="A5B4AD64-DDFE-F02B-07A1-64E14668EAFA" name="TB_BLACKLIST PK">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-05-24 07:12:04 UTC</createdTime>
+<createdTime>2018-06-05 02:40:18 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="false"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>729923FB-8A9B-9AB2-D97D-F46769C0DB48</attributeRef>
+<attributeRef>965BBCDA-B1B3-5BE1-0ADF-3EB614A5B2D7</attributeRef>
+<attributeRef>454C21F1-EF0A-8297-0BCE-31C67A63FD8E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

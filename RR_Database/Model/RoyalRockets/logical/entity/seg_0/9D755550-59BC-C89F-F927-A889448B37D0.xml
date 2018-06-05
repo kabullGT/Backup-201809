@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B0437D2E-58CC-90A3-345F-EA36E4DC595A" name="TB_EVENT">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9D755550-59BC-C89F-F927-A889448B37D0" name="TB_EVENT_OWNER">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-03-27 18:05:40 UTC</createdTime>
+<createdTime>2018-06-05 02:41:19 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
 <item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="event_id" id="7C0D6644-089D-6DE5-EC1C-7DB195155D01">
+<Attribute name="event_owner_id" id="8D0DF01E-609F-4D62-7FC9-C0B42D8F6CA4">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-03-27 18:26:08 UTC</createdTime>
+<createdTime>2018-06-05 02:41:30 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
 <item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
@@ -27,9 +27,38 @@
 <logicalDatatype>LOGDT057</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="name" id="1C494298-A53E-13CA-33AF-F6BDE5317071">
+<Attribute name="id" id="388065D2-788B-6175-370F-7C0C18BDE458">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-03-27 18:26:14 UTC</createdTime>
+<createdTime>2018-06-05 02:43:37 UTC</createdTime>
+<comment>CNPJ&lt;br/&gt;COMPANY ID</comment>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="20F7C3F2-5EB0-7B1E-B14B-1B9A89693041">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-05 02:41:46 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="D8D68321-2A6A-8D7C-3905-6ED7F67D6965">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-05 02:42:58 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
 <item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
@@ -41,23 +70,9 @@
 <dataTypeSize>70</dataTypeSize>
 <ownDataTypeParameters>70,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="address" id="B16C0689-3AB8-DE6E-3A44-8C4BFC1B2260">
+<Attribute name="zipcode" id="00823BDE-F88E-BA03-B258-280FE0B995B1">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-03-27 18:26:22 UTC</createdTime>
-<ownerDesignName>RoyalRockets</ownerDesignName>
-<engineerTo>
-<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>70</dataTypeSize>
-<ownDataTypeParameters>70,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="zipcode" id="06DBCE79-A286-09F5-4FB1-C54A29AE453F">
-<createdBy>Kabull</createdBy>
-<createdTime>2018-03-27 18:26:29 UTC</createdTime>
+<createdTime>2018-06-05 02:42:58 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
 <item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
@@ -69,9 +84,9 @@
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="country" id="C856C0B1-D806-56A3-3DF8-5436E00FC5C1">
+<Attribute name="country" id="6CE06FC7-7B88-9936-C8C6-E255AB804643">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-03-27 18:26:35 UTC</createdTime>
+<createdTime>2018-06-05 02:42:58 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
 <item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
@@ -83,9 +98,9 @@
 <dataTypeSize>70</dataTypeSize>
 <ownDataTypeParameters>70,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="capacity" id="AC1BF850-ABF9-086F-7C12-6740D74D341F">
+<Attribute name="contact_name" id="9B155F4B-9269-F095-2F55-234C5F09297B">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-03-27 18:28:29 UTC</createdTime>
+<createdTime>2018-06-05 02:43:11 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
 <item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
@@ -93,12 +108,13 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="datetime_open" id="C09E45C9-F460-DC40-FE52-4510D3DB434C">
+<Attribute name="phone1" id="9071E4DD-B259-BFBC-436B-79711AEBA07B">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-05-28 22:56:59 UTC</createdTime>
+<createdTime>2018-06-05 02:44:47 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
 <item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
@@ -106,12 +122,13 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="datetime_close" id="1DB51700-F2CE-6D86-84C4-CBD853514EA8">
+<Attribute name="phone2" id="3148783C-6AB9-8214-2C3B-8208F7778BFD">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-05-28 22:56:59 UTC</createdTime>
+<createdTime>2018-06-05 02:44:47 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
 <item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
@@ -119,26 +136,27 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="event_owner_id" id="847658A2-A7A0-8D36-C166-80DD7BC475CE">
+<Attribute name="email" id="FC5125F4-A0BD-B2DB-DDE3-9F77FB40A9E4">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-06-05 02:44:10 UTC</createdTime>
-<generatorID>8578E551-8BEC-4F2F-8AD1-9344A595A969</generatorID>
+<createdTime>2018-06-05 02:44:47 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
 <item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
-<referedAttribute>8D0DF01E-609F-4D62-7FC9-C0B42D8F6CA4</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="image_patch" id="3DD22A51-8147-D099-90A4-B8EED72D8594">
+<Attribute name="image_patch" id="55AC09C6-99FF-75D9-470A-F1B9BB4AD00C">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-06-05 02:45:27 UTC</createdTime>
+<createdTime>2018-06-05 02:44:47 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
 <item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
@@ -151,17 +169,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F3EAF26D-2445-0E88-1CB2-C98E75F11C68" name="TB_EVENT PK">
+<identifier id="CC3CEA9A-06AD-103B-4BAF-A5D7AD8A5912" name="TB_EVENT_OWNER PK">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-03-27 18:29:25 UTC</createdTime>
+<createdTime>2018-06-05 02:43:52 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="false"/>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>7C0D6644-089D-6DE5-EC1C-7DB195155D01</attributeRef>
+<attributeRef>8D0DF01E-609F-4D62-7FC9-C0B42D8F6CA4</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
