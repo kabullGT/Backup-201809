@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="728B9F75-E81F-D54D-8A2D-60158A78362B" name="TB_WRISTBAND_DAY">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-26 21:36:16 UTC</createdTime>
+<generatorID>04A0AABE-ED9D-BAA5-DCB2-C70848867E71</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="event_day_id" id="8E796DA3-85F2-64B6-4211-1572EA8AEBFD">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-26 21:36:16 UTC</createdTime>
+<generatorID>014054A1-EDCB-A248-1D57-D424F788AFE8</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D53D1FF1-0057-836C-64C2-BAB509127D8E" referredColumn="DD920072-2E18-800B-113B-85D9212D05FA"/>
+</associations>
+</Column>
+<Column name="wrt_type_id" id="69FB981D-81AA-0EAD-CF0F-8D61807F28BC">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-26 21:36:16 UTC</createdTime>
+<generatorID>24B9B412-9872-B1BB-E43A-982E148B8ACC</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BEADAF0-C510-C640-B6D3-7F6665C07B2D" referredColumn="515F273E-B08C-B707-CFD9-DB6AB5C60898"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75084684-BEA4-E995-851F-06513E402EEF" name="TB_WRISTBAND_DAY_PK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-26 21:36:16 UTC</createdTime>
+<generatorID>61F37ABC-21CF-AE2C-DC87-1BB9091C89AF</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E796DA3-85F2-64B6-4211-1572EA8AEBFD"/>
+<colUsage columnID="69FB981D-81AA-0EAD-CF0F-8D61807F28BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7839A17-2A24-7270-B517-C2F0B5379DD1" name="DAY_WRISTBAND_FK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-26 21:36:16 UTC</createdTime>
+<generatorID>69DB0733-7743-63F5-9795-1EAF8737DED8</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E796DA3-85F2-64B6-4211-1572EA8AEBFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91E702F1-2543-C44F-A190-92B02CF5C5F9" name="WRISTBAND_DAY_FK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-26 21:36:16 UTC</createdTime>
+<generatorID>A08A6ADD-BD06-6F3B-7863-730599CEBFD7</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69FB981D-81AA-0EAD-CF0F-8D61807F28BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ACCOUNT_WRISTBAND_FK" directorySegmentName="seg_0" id="0F0109F1-2DAD-BA2E-9903-A332F68B4463">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-26 21:22:45 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<sourcePk>94F20368-16E2-A872-2D84-8821C84C1D0F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E653DA0D-7A5B-F11B-2627-ABC36F607D6A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9482480B-E48E-2041-04AE-79439F534BF9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

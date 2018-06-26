@@ -57,19 +57,6 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="balance" id="E20A44CA-97EC-BB8E-CCEB-974D4663C5A2">
-<createdBy>Kabull</createdBy>
-<createdTime>2018-03-28 09:16:43 UTC</createdTime>
-<ownerDesignName>RoyalRockets</ownerDesignName>
-<engineerTo>
-<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="event_id" id="A9AA7565-CA7D-F5CC-8B15-1F7B40E43F73">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-05-24 04:04:52 UTC</createdTime>
@@ -98,7 +85,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="wristband_status_id" id="2DBFAEC5-6479-ED85-AF90-580D59672004">
 <createdBy>Kabull</createdBy>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77EBEF18-757F-2F51-2C5B-FE55290E0B56" name="TB_DAY_COPARTNER">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-26 21:36:15 UTC</createdTime>
+<generatorID>C46F582F-6BA3-E530-26CC-564C5608BA25</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="event_day_id" id="34374C8C-825B-596C-7148-9E4F819F11D1">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-26 21:36:15 UTC</createdTime>
+<generatorID>3848852D-7942-F35B-2342-8194E70885E8</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB225905-1DCF-345D-1EB5-7E3FD12441F1" referredColumn="DD920072-2E18-800B-113B-85D9212D05FA"/>
+</associations>
+</Column>
+<Column name="copartner_id" id="5F849E35-3B78-B7F8-C0BE-6167C949D275">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-26 21:36:15 UTC</createdTime>
+<generatorID>CB148305-1958-AFDB-2A79-AA0225901A12</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="120A192E-0537-92B1-2539-A80D4CBC02D0" referredColumn="4E5D990A-CC15-75BC-A62C-F24077D12E05"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC37B4B2-9FC3-22BC-0979-28DC29BE601F" name="TB_EVENT_DAY_COPARTNER_PK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-26 21:36:15 UTC</createdTime>
+<generatorID>408FA5C1-050B-1BF9-C89E-CBC990A1C4EE</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F849E35-3B78-B7F8-C0BE-6167C949D275"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0810761C-3C61-DEFD-073D-DF036496F8CC" name="COPARTNER_DAY_FK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-26 21:36:16 UTC</createdTime>
+<generatorID>BA7FC07A-9A11-6FCF-ECF1-DC30CD25C373</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F849E35-3B78-B7F8-C0BE-6167C949D275"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51C291FC-1797-E5DE-14C5-C80439B9D2A2" name="DAY_COPARTNER_FK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-26 21:36:16 UTC</createdTime>
+<generatorID>76B378C6-8DBC-48F3-9F9F-0D339B67F73F</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34374C8C-825B-596C-7148-9E4F819F11D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -27,17 +27,47 @@
 <logicalDatatype>LOGDT057</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="amount" id="C284D35E-6100-EC06-2A18-8E4D762CEA65">
+<Attribute name="trn_type_id" id="31A48A18-9FF7-DCF2-F23D-3B9857A8F6AB">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-05-24 06:19:46 UTC</createdTime>
+<createdTime>2018-05-24 06:22:36 UTC</createdTime>
+<generatorID>13FFB4B5-1FBA-F075-0831-9F6D43FD9683</generatorID>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
 <item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CE7E26BD-3441-9B84-FEA0-F41391C4A127</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT020</logicalDatatype>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wrt_uid" id="AD656DDD-9822-6E3E-007A-74444B5A3CBF">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-26 21:28:01 UTC</createdTime>
+<generatorID>8CA20FFB-1FBF-09E3-78C2-5AE881E29FCD</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<referedAttribute>657419C3-905F-4705-2988-287272172A7B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="acccount_id" id="97A10BEB-43D8-01B3-D78A-CD7E33AB657E">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-26 21:28:01 UTC</createdTime>
+<generatorID>8CA20FFB-1FBF-09E3-78C2-5AE881E29FCD</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<referedAttribute>4E999A46-6228-9A0D-C3D1-A30BDC3C061E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="trn_datetime" id="C6B32182-EC0C-6365-9C42-2833EFB3D5D9">
@@ -53,64 +83,18 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="trn_type_id" id="31A48A18-9FF7-DCF2-F23D-3B9857A8F6AB">
+<Attribute name="amount" id="C284D35E-6100-EC06-2A18-8E4D762CEA65">
 <createdBy>Kabull</createdBy>
-<createdTime>2018-05-24 06:22:36 UTC</createdTime>
-<generatorID>13FFB4B5-1FBA-F075-0831-9F6D43FD9683</generatorID>
-<ownerDesignName>RoyalRockets</ownerDesignName>
-<engineerTo>
-<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
-</engineerTo>
-<referedAttribute>CE7E26BD-3441-9B84-FEA0-F41391C4A127</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="wrt_uid" id="D2C7E67D-90E1-7B83-F6DD-A3F281FBC522">
-<createdBy>Kabull</createdBy>
-<createdTime>2018-05-24 06:23:03 UTC</createdTime>
-<generatorID>9CE335FC-9EF3-C3D8-C0F5-E07536CDEBEB</generatorID>
-<ownerDesignName>RoyalRockets</ownerDesignName>
-<engineerTo>
-<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
-</engineerTo>
-<referedAttribute>20D8538E-292D-501B-21CB-B2A660DE888A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="trn_id1" id="79ABB678-1ACB-5037-B674-3375C8158D14">
-<createdBy>Kabull</createdBy>
-<createdTime>2018-05-24 06:25:54 UTC</createdTime>
-<generatorID>B90B9D37-BDD0-2E5E-7B78-1D0443B23183</generatorID>
+<createdTime>2018-05-24 06:19:46 UTC</createdTime>
 <ownerDesignName>RoyalRockets</ownerDesignName>
 <engineerTo>
 <item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<referedAttribute>4A20CEDA-83F8-4EFC-6DB6-5D9BBCCA00AA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
+<logicalDatatype>LOGDT020</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="wrt_uid1" id="5C53D39C-1AD2-9189-9C82-ECDA48C20094">
-<createdBy>Kabull</createdBy>
-<createdTime>2018-05-24 06:27:27 UTC</createdTime>
-<generatorID>D83B365C-3534-5307-BCC1-BB05154BA376</generatorID>
-<ownerDesignName>RoyalRockets</ownerDesignName>
-<engineerTo>
-<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
-</engineerTo>
-<referedAttribute>20D8538E-292D-501B-21CB-B2A660DE888A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="module_id" id="D47A191D-E18F-145E-6BAE-B7E6ED08F7F9">
 <createdBy>Kabull</createdBy>
@@ -163,6 +147,22 @@
 <item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
 </engineerTo>
 <referedAttribute>729923FB-8A9B-9AB2-D97D-F46769C0DB48</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="trn_id1" id="79ABB678-1ACB-5037-B674-3375C8158D14">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-05-24 06:25:54 UTC</createdTime>
+<comment>In case of transfer balance, the link btw transactions will be done through this field.</comment>
+<generatorID>B90B9D37-BDD0-2E5E-7B78-1D0443B23183</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>4A20CEDA-83F8-4EFC-6DB6-5D9BBCCA00AA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>

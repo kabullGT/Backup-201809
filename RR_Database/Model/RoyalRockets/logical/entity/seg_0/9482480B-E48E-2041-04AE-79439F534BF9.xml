@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9482480B-E48E-2041-04AE-79439F534BF9" name="TB_ACCOUNT_WRISTBAND">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-26 21:22:02 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="acccount_id" id="4E999A46-6228-9A0D-C3D1-A30BDC3C061E">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-26 21:22:45 UTC</createdTime>
+<generatorID>0F0109F1-2DAD-BA2E-9903-A332F68B4463</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<referedAttribute>E8F49363-202A-6F28-8017-FED2476879CB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wrt_uid" id="657419C3-905F-4705-2988-287272172A7B">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-26 21:23:03 UTC</createdTime>
+<generatorID>612B9A45-0DF8-F876-96EE-8130D7050226</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<referedAttribute>20D8538E-292D-501B-21CB-B2A660DE888A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="limit" id="7B313AA3-F9E3-0FC3-F48B-0430CF080485">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-26 21:24:33 UTC</createdTime>
+<comment>Max amount a certain wristband can spend from an account.</comment>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B0A27A16-55D1-1961-C75A-2F73E3447670" name="TB_ACCOUNT_WRISTBAND PK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-26 21:22:45 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4E999A46-6228-9A0D-C3D1-A30BDC3C061E</attributeRef>
+<attributeRef>657419C3-905F-4705-2988-287272172A7B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
