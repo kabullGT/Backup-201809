@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D7A47A7-94A4-C85A-4764-2A1BEAB8E40B" name="TB_ACCOUNT_TYPE">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-26 22:48:10 UTC</createdTime>
+<generatorID>11B8B678-4E29-136B-36E2-5E21399BCEF3</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="account_type_id" id="2ECC460B-AE8E-1E71-A726-71F63659668D">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-26 22:48:10 UTC</createdTime>
+<generatorID>A7CD7DB6-D4C4-2F76-E9EA-115C49B0C815</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dsc" id="144E803A-5BE4-2D7B-C369-823A6E297E2D">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-26 22:48:10 UTC</createdTime>
+<generatorID>EBA589CA-B5D5-D2FA-A8A0-8C91F95F10C3</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3418234A-CA07-D3F4-1EF0-DB862D00E1C2" name="TB_ACCOUNT_TYPE_PK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-06-26 22:48:10 UTC</createdTime>
+<generatorID>1589A030-D042-88F5-E736-7601CA4C3FE2</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2ECC460B-AE8E-1E71-A726-71F63659668D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
