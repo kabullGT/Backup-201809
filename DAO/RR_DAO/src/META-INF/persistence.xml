@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="RR_DAOPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>entities.TbTransaction</class>
+    <class>entities.TbEvent</class>
+    <class>entities.TbOrder</class>
+    <class>entities.TbWrtType</class>
+    <class>entities.TbCopartner</class>
+    <class>entities.TbProduct</class>
+    <class>entities.TbAccount</class>
+    <class>entities.TbCopartnerProduct</class>
+    <class>entities.TbAccountWristband</class>
+    <class>entities.TbListNames</class>
+    <class>entities.TbAtendeeEvent</class>
+    <class>entities.TbEventOwner</class>
+    <class>entities.TbAtendeeWristband</class>
+    <class>entities.TbUserAccessLevel</class>
+    <class>entities.TbSystemModule</class>
+    <class>entities.TbGeneralConfig</class>
+    <class>entities.TbSubEvent</class>
+    <class>entities.TbWristbandStatus</class>
+    <class>entities.TbUserType</class>
+    <class>entities.TbUserDevice</class>
+    <class>entities.TbAccountType</class>
+    <class>entities.TbAttendance</class>
+    <class>entities.TbEventArea</class>
+    <class>entities.TbBlacklist</class>
+    <class>entities.TbDayCopartner</class>
+    <class>entities.TbList</class>
+    <class>entities.TbWristband</class>
+    <class>entities.TbLog</class>
+    <class>entities.TbLogType</class>
+    <class>entities.TbAtendee</class>
+    <class>entities.TbOrderProduct</class>
+    <class>entities.TbDevice</class>
+    <class>entities.TbAccountStatus</class>
+    <class>entities.TbSalepoint</class>
+    <class>entities.TbUser</class>
+    <class>entities.TbTransactionType</class>
+    <class>entities.TbEventDay</class>
+    <class>entities.TbProductCombo</class>
+    <class>entities.TbCombo</class>
+    <class>entities.TbAccessLevel</class>
+    <class>entities.TbAtendeeIdType</class>
+    <class>entities.TbWrtSubType</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://localhost;databaseName=RR_DB"/>
+      <property name="javax.persistence.jdbc.user" value="sa"/>
+      <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+      <property name="javax.persistence.jdbc.password" value="123456"/><!-- TODO: encrypt -->
+    </properties>
+  </persistence-unit>
+</persistence>
