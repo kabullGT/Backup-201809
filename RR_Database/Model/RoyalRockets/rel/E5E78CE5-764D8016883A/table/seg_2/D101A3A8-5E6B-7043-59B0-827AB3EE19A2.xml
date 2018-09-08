@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_2" id="D101A3A8-5E6B-7043-59B0-827AB3EE19A2" name="TB_ATENDEE_EVENT">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>2406AB25-4BE5-23E8-E437-16E4FA606B76</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="atendee_ruid" id="4E1631FC-D165-5FD7-6696-28F3EF87716E">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>F1CE5EB3-8723-86BB-5DB4-0C029F4EE008</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C8B1AB2-5925-CBF2-53DC-44187E889479" referredColumn="D7F4984D-761F-420D-1075-363D8011184F"/>
+</associations>
+</Column>
+<Column name="event_id" id="CCE1C915-F603-929B-C388-66894CCD29F3">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>4B198EF3-90B6-0420-379C-AA29113E43EB</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="event_day_id" id="4410B9ED-C6F9-ECA6-A26B-11FD6F7ABAC9">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>D8AA1DB2-928C-50EA-CD71-3156B4FC07F8</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15E47BEE-66F1-804C-B821-B10947AA92CE" referredColumn="8360D519-A33E-9E09-73E2-43A8112F5348"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA54EC11-8D76-33C2-E1B3-3158BE127277" name="TB_CLIENT_EVENT_PK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>DDE2FE75-DDD5-1743-DB08-853ED8C1A0AB</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E1631FC-D165-5FD7-6696-28F3EF87716E"/>
+<colUsage columnID="4410B9ED-C6F9-ECA6-A26B-11FD6F7ABAC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D819A72E-D5C3-A9CE-A235-8AACCE5AB4BD" name="CIENT_EVENT_FK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>23A932BC-CC62-AF5F-734F-FB869CEF3BC2</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E1631FC-D165-5FD7-6696-28F3EF87716E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04A234A8-8460-7E6A-20F9-AEBB5767D421" name="EVENT_DAY_CLIENT_FK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>1FCB85BE-4425-36A1-D304-F0AFA6C79D1C</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4410B9ED-C6F9-ECA6-A26B-11FD6F7ABAC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

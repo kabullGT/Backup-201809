@@ -42,8 +42,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="checkin" id="7E1B7A3F-C70A-95AD-FB54-A2D463CF1F52">
 <createdBy>Kabull</createdBy>

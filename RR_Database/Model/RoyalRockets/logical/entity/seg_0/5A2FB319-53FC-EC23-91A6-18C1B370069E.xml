@@ -28,7 +28,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="sub_event_id" id="EC15586E-AD84-9096-F234-4827AEAC107A">
 <createdBy>Kabull</createdBy>

@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_2" id="82627AAE-D826-7701-AA0F-54A284225DCF" name="TB_WRISTBAND">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>523AB772-96BA-2269-1039-116A04BA974B</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="wrt_uid" id="4D316E23-934D-BAF6-5D9F-59BF05758C03">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>20D8538E-292D-501B-21CB-B2A660DE888A</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="wrt_type_id" id="9850A1AA-84B1-E18B-44FF-B39F16FF0584">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>11B3AA55-9D32-B643-DA07-4F47AA9FBD8E</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6FC5CB10-416B-62BF-F863-381A1CE40710" referredColumn="175AC646-277A-059F-62E1-6DF2007ABE26"/>
+</associations>
+</Column>
+<Column name="event_id" id="6BADEFC4-62AE-492E-39C2-0F32EA50ACB8">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>A9AA7565-CA7D-F5CC-8B15-1F7B40E43F73</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="event_day_id" id="0064FEF1-1E94-043C-2947-8AC7B9684D8D">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>67F44A31-7C68-749F-39B6-C96FF283F82C</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AE436C9-F4E4-4869-F5CE-C28C6D6D9E92" referredColumn="8360D519-A33E-9E09-73E2-43A8112F5348"/>
+</associations>
+</Column>
+<Column name="wristband_status_id" id="C5689540-8248-1142-D099-555DB44B98FC">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>2DBFAEC5-6479-ED85-AF90-580D59672004</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="794916B8-04CF-2C28-6387-117449A97A33" referredColumn="28E1081C-9BD0-E608-01F2-D80C02571A77"/>
+</associations>
+</Column>
+<Column name="wrt_code" id="4DCB7E81-8B8F-4C5F-3C3B-DC7D7EA0BF5E">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>72AB2292-1D81-64EC-E462-0461450BD92A</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5AE986FE-F404-747D-2A05-577DA2A7B8C5" name="TB_WRISTBAND_PK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>368EE62C-6131-FEC3-7D46-81DD2F4ABAB2</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D316E23-934D-BAF6-5D9F-59BF05758C03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F4843C6-4CCD-DE1A-F403-F9171904E774" name="EVENT_DAY_WRISTBAND_FK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>B2B921FC-4063-6AF2-9320-6A9BD3939FEC</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0064FEF1-1E94-043C-2947-8AC7B9684D8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BD68A73-37C1-C806-73AA-3FCE47E2AA26" name="STATUS_WRISTBAND_FK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>4C2FC198-29A5-D4B4-71FD-34A2BCB99EA8</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5689540-8248-1142-D099-555DB44B98FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31497134-9FCE-9E41-E842-01D3D3A8556C" name="WRT_TYPE_FK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>C7787337-D1CD-B860-D1FC-17DB12D9875B</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9850A1AA-84B1-E18B-44FF-B39F16FF0584"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

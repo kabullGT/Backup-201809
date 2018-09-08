@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_3" id="724F8D69-AE6D-CD4D-19B8-1049FFBFDE22" containerWithKeyObject="03E941D5-7B2B-AF68-51AE-310388A26FD9" localFKIndex="092594D2-CE67-CACA-F9C2-0BA532452A1C" name="WRISTBAND_AGENDA_FK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>5A6DD785-6560-5F61-B858-4E63D93B986E</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<referredTableLongName>TB_WRISTBAND</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>82627AAE-D826-7701-AA0F-54A284225DCF</referredTableID>
+<keyObject>5AE986FE-F404-747D-2A05-577DA2A7B8C5</keyObject>
+<referredKeyID>5AE986FE-F404-747D-2A05-577DA2A7B8C5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>wrt_uid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

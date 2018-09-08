@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_2" id="059D6A0A-3BE4-3C14-E69D-FE2EBF90764A" name="TB_LOG">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>C44D6063-9DDA-DD2F-F667-F6FCA62C8509</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="log_id" id="5B171EBE-CBFD-BB69-A58C-C6C7B5517D0B">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>729923FB-8A9B-9AB2-D97D-F46769C0DB48</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="log_type_id" id="3E9646ED-C33A-387E-E213-711A382F40D6">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>D2FB2635-E00B-D3C2-969C-7B7F92944A0C</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4EB880B4-62D1-85AB-DBB2-B827458F3605" referredColumn="8383471C-B739-D056-5FD4-31073756444A"/>
+</associations>
+</Column>
+<Column name="module_id" id="0681C7FE-A8F4-6D7F-6613-04123DF7AB85">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>5AF9CB29-2A05-5859-E083-5F785103FFC1</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8CAA1446-6FEA-5E97-19CD-089486A0679D" referredColumn="DB3D9302-309B-3BFA-D48E-D64CC92323D5"/>
+</associations>
+</Column>
+<Column name="log_dsc" id="2301CF75-EC92-48B4-3DD0-F11C1470251D">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>46C92088-944F-2569-B0E3-D31B58AE9C02</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="692FB6BF-7C9D-29A9-0D1F-7F149FA40635" name="TB_LOG_PK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>D43459F0-4391-5975-EBA0-2D8560E7AE71</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B171EBE-CBFD-BB69-A58C-C6C7B5517D0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72B53B78-1212-21F3-688D-C0D6F7CAF278" name="LOG_TYPE_FK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>C9842B67-814A-FC8E-6FE7-02B1C7C7690C</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E9646ED-C33A-387E-E213-711A382F40D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A241156-342B-46D6-DD35-C368E20DBD73" name="MODULE_LOG_FK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>F10B9BE4-9536-2F82-B9CF-0FF1E484E0E8</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0681C7FE-A8F4-6D7F-6613-04123DF7AB85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

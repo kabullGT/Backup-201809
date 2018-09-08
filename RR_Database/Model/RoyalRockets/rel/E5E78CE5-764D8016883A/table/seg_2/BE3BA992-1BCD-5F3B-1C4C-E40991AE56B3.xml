@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_2" id="BE3BA992-1BCD-5F3B-1C4C-E40991AE56B3" name="TB_SALEPOINT">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>B6BDC4F8-076D-771F-C972-F4EC959DF48D</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_salepoint" id="5F685732-95D5-375E-1177-51D802C04C4F">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>48166C84-CE45-544C-404F-FF5EC1DC2836</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dsc" id="0FA937D2-6DD9-8EAA-3C61-EAF500930315">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>DFB4FBA1-790F-CB1A-0896-9AB9672DE702</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="copartner_id" id="F9317120-6843-7641-D0EA-6A7D7C231A94">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>27EA7D61-6771-35A7-1FA5-2E092D63206C</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7464E14-937D-EF68-D1A6-7E18348F037E" referredColumn="30705027-EC54-07F3-B534-092D0B18AB4A"/>
+</associations>
+</Column>
+<Column name="area_id" id="E058EBFD-D79E-619F-4415-E46AB8A3640C">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>1D8F0556-E38A-67B0-9996-1408D0422F79</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94F32AC1-585A-5795-0648-F03D690669B5" referredColumn="2D983E36-755D-E8C0-5F6B-861B5362A20F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8C0248A-E1CF-689D-65A8-CF613ACA4EC7" name="TB_SALEPOINT_PK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>EAFD9B10-B8A7-AD7A-BF19-1CD2CE203FED</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F685732-95D5-375E-1177-51D802C04C4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE0523C9-F6BE-3059-D3CD-C51C21AD00C0" name="AREA_SALEPOINT_FK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>B2598660-F64B-7A70-9ACA-5578B908E7AC</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E058EBFD-D79E-619F-4415-E46AB8A3640C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C909AFEB-1999-9030-95CC-487BF27EB34C" name="COPARTNER_SALEPOINT_FK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>03D68305-5E65-0F4A-4EC1-254D37FDD545</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9317120-6843-7641-D0EA-6A7D7C231A94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

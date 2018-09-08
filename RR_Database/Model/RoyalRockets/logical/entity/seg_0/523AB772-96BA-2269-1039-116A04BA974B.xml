@@ -25,22 +25,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="atendee_ruid" id="650E983C-E7FB-467C-91C3-CF2803C19508">
-<createdBy>Kabull</createdBy>
-<createdTime>2018-03-28 09:01:51 UTC</createdTime>
-<generatorID>769036C4-5A24-2F27-BE75-5D28C7D6448C</generatorID>
-<ownerDesignName>RoyalRockets</ownerDesignName>
-<engineerTo>
-<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
-</engineerTo>
-<referedAttribute>E8AEA677-B332-6167-37CE-F50AD7BEAC95</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="wrt_type_id" id="11B3AA55-9D32-B643-DA07-4F47AA9FBD8E">
 <createdBy>Kabull</createdBy>
@@ -100,6 +86,20 @@
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wrt_code" id="72AB2292-1D81-64EC-E462-0461450BD92A">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-08-29 16:46:44 UTC</createdTime>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

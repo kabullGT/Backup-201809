@@ -29,21 +29,6 @@
 <logicalDatatype>LOGDT057</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="wrt_uid" id="657419C3-905F-4705-2988-287272172A7B">
-<createdBy>Kabull</createdBy>
-<createdTime>2018-06-26 21:23:03 UTC</createdTime>
-<generatorID>612B9A45-0DF8-F876-96EE-8130D7050226</generatorID>
-<ownerDesignName>RoyalRockets</ownerDesignName>
-<engineerTo>
-<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
-</engineerTo>
-<referedAttribute>20D8538E-292D-501B-21CB-B2A660DE888A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="limit" id="7B313AA3-F9E3-0FC3-F48B-0430CF080485">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-06-26 21:24:33 UTC</createdTime>
@@ -56,6 +41,21 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wrt_uid" id="77937510-F5DF-8A62-9963-3E3264A6CB2A">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:12:01 UTC</createdTime>
+<generatorID>4AD98031-29D8-57B0-EE2C-AA3D54137E94</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<referedAttribute>20D8538E-292D-501B-21CB-B2A660DE888A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -71,7 +71,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>4E999A46-6228-9A0D-C3D1-A30BDC3C061E</attributeRef>
-<attributeRef>657419C3-905F-4705-2988-287272172A7B</attributeRef>
+<attributeRef>77937510-F5DF-8A62-9963-3E3264A6CB2A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

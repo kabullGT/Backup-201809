@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="E9CF97CC-D4A8-9CE0-2527-E3E4DB1EFDFE" name="TB_ACCOUNT_WRISTBAND">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>9482480B-E48E-2041-04AE-79439F534BF9</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="acccount_id" id="7A1B1E31-2056-85F1-362B-913A04094222">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>4E999A46-6228-9A0D-C3D1-A30BDC3C061E</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1E8DA09-9F64-2FAC-92CC-A0D52839551B" referredColumn="3B298837-9DD2-5436-062D-C62C9ACA150D"/>
+</associations>
+</Column>
+<Column name="limit" id="A736DA80-79BC-BBC1-EDFF-AF5AA6BAA868">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<comment>Max amount a certain wristband can spend from an account.</comment>
+<generatorID>7B313AA3-F9E3-0FC3-F48B-0430CF080485</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="wrt_uid" id="ADD494B8-678F-3E31-C84B-DAEB22B60D97">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>77937510-F5DF-8A62-9963-3E3264A6CB2A</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BCCF6AB2-3678-28DD-050E-73BE57E4EA60" referredColumn="4D316E23-934D-BAF6-5D9F-59BF05758C03"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB430FDC-5C98-320C-5676-F950717981C0" name="TB_ACCOUNT_WRISTBAND_PK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>B0A27A16-55D1-1961-C75A-2F73E3447670</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A1B1E31-2056-85F1-362B-913A04094222"/>
+<colUsage columnID="ADD494B8-678F-3E31-C84B-DAEB22B60D97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5EE7323-82A8-7083-AB99-6A5A3BDDD113" name="ACCOUNT_WRISTBAND_FK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>0F0109F1-2DAD-BA2E-9903-A332F68B4463</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A1B1E31-2056-85F1-362B-913A04094222"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3C164A4-8472-C90C-A912-25C1ADA43079" name="WRISTBAND_ACCOUNT_FK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>4AD98031-29D8-57B0-EE2C-AA3D54137E94</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADD494B8-678F-3E31-C84B-DAEB22B60D97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

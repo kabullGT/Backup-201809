@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_2" id="459EFA40-B64A-3852-2DF4-0083883B6C66" name="TB_BLACKLIST">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>62E93177-8FFE-805D-3234-673828BD101C</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="atendee_ruid" id="AA99E06B-5B66-070F-AF48-857E67AD2FE0">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>965BBCDA-B1B3-5BE1-0ADF-3EB614A5B2D7</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D33B1E8E-DD0F-7D32-788A-04565FF2A10E" referredColumn="D7F4984D-761F-420D-1075-363D8011184F"/>
+</associations>
+</Column>
+<Column name="event_id" id="44890BFF-7535-6D1F-EE88-F9B1B4B0FE75">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>454C21F1-EF0A-8297-0BCE-31C67A63FD8E</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C311EA00-7556-A70E-9EEC-B4A430816260" referredColumn="3080A101-2274-F75B-46C6-4400BBF36843"/>
+</associations>
+</Column>
+<Column name="reason" id="0E7E74A5-9477-4A18-07F1-BF88056F6CF4">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>2DF1E5F8-6408-FBC0-7A79-961AB0E233DD</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deleted" id="E3FB3222-9A76-7024-2616-787F07266D6E">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>E8014694-5950-7845-80C6-B2CF8A7227D9</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1823606-1D09-5913-57FB-7550B6908073" name="TB_BLACKLIST_PK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>A5B4AD64-DDFE-F02B-07A1-64E14668EAFA</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA99E06B-5B66-070F-AF48-857E67AD2FE0"/>
+<colUsage columnID="44890BFF-7535-6D1F-EE88-F9B1B4B0FE75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B310B4CA-28B6-5CBB-D232-FB182EA45392" name="ATENDEE_BLACKLIST_FK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>051D2CBC-604F-C5DD-8270-4A949756DB19</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA99E06B-5B66-070F-AF48-857E67AD2FE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="878AB468-4BEE-1DB6-8474-44003F735703" name="EVENT_BLACKLIST_FK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>A46FF713-AF11-A8B6-0475-2E4242B20394</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44890BFF-7535-6D1F-EE88-F9B1B4B0FE75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

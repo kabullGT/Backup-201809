@@ -41,21 +41,6 @@
 <logicalDatatype>LOGDT057</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="wrt_uid" id="AD656DDD-9822-6E3E-007A-74444B5A3CBF">
-<createdBy>Kabull</createdBy>
-<createdTime>2018-06-26 21:28:01 UTC</createdTime>
-<generatorID>8CA20FFB-1FBF-09E3-78C2-5AE881E29FCD</generatorID>
-<ownerDesignName>RoyalRockets</ownerDesignName>
-<engineerTo>
-<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
-</engineerTo>
-<referedAttribute>657419C3-905F-4705-2988-287272172A7B</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="acccount_id" id="97A10BEB-43D8-01B3-D78A-CD7E33AB657E">
 <createdBy>Kabull</createdBy>
 <createdTime>2018-06-26 21:28:01 UTC</createdTime>
@@ -166,6 +151,21 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wrt_uid" id="0632065A-CED4-DCEE-163E-395B5045DA7C">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:12:01 UTC</createdTime>
+<generatorID>8CA20FFB-1FBF-09E3-78C2-5AE881E29FCD</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<referedAttribute>77937510-F5DF-8A62-9963-3E3264A6CB2A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

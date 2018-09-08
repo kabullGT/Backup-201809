@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_2" id="50A5AFA1-965C-CB34-D75D-E8B34ED569CF" name="TB_USER_ACCESS_LEVEL">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>E3755565-D7BB-C5BB-C16B-02C8B43882BA</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="access_level_id" id="6209573E-CA8A-E335-A476-31D310F9471D">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>01537A64-85D1-5308-5517-E01CCEB038CA</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0053FA5-2B6E-8C8F-0D10-110A513A085A" referredColumn="3A88B458-65D4-BBD9-7208-6393C7B844C7"/>
+</associations>
+</Column>
+<Column name="module_id" id="52B7A90B-021A-F46A-3189-30E4FEF47B86">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>97F6CC7C-777A-26F3-30EB-6A28A342644F</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0053FA5-2B6E-8C8F-0D10-110A513A085A" referredColumn="BD4C4B11-55DA-16B7-ABD8-59E16FD79A3A"/>
+</associations>
+</Column>
+<Column name="user_id" id="11A134F5-A38F-A8D9-15D3-64494C956B73">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>0F5A2D6D-573E-71D7-CD5B-92C4A90F48F9</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E444DC5-F46D-38DE-FEFC-A37468759149" referredColumn="15BC3045-12F2-A43D-2546-F8C63DE1F03A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DDF49E83-D3BA-8074-4481-5D8915D99380" name="Entity_34_PK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>73B2B1BA-A8D8-8B6D-EBE3-FF32A454F034</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11A134F5-A38F-A8D9-15D3-64494C956B73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDCBC4E4-BB92-AB49-C1ED-CC97C3108CF8" name="ACCESS_LEVEL_USER_FK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>F368E408-18E8-B4DD-E2B0-9499946DD95B</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6209573E-CA8A-E335-A476-31D310F9471D"/>
+<colUsage columnID="52B7A90B-021A-F46A-3189-30E4FEF47B86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3A74488-9A24-5FEA-B461-4F99D5312DE7" name="Relation_56">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-03 21:13:41 UTC</createdTime>
+<generatorID>B25253B8-57E0-54ED-2B12-4E611E3CB8A8</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11A134F5-A38F-A8D9-15D3-64494C956B73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
