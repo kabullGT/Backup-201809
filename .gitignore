@@ -1,7 +1,9 @@
-/RoyalRockets_Access/nbproject/private/
-/RoyalRockets_Pay/nbproject/private/
-/RoyalRockets_Pay/build/
-/RoyalRockets_Pay/dist/
-/RoyalRockets_Data/nbproject/private/
-/RoyalRockets_Data/dist/
-/RoyalRockets_Data/build/
+RoyalRockets_Access/nbproject/private/
+RoyalRockets_Pay/nbproject/private/
+RoyalRockets_Pay/build/
+RoyalRockets_Pay/dist/
+RoyalRockets_Data/nbproject/private/
+RoyalRockets_Data/dist/
+RoyalRockets_Data/build/
+Concept_Tests/Test_DAO/build/
+Concept_Tests/RR_DAO/build/
