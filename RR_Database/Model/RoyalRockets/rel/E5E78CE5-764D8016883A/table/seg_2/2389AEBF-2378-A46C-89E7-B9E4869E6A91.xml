@@ -94,6 +94,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="display_order" id="19E86009-FA47-B574-301D-859E36A5F693">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-13 02:54:57 UTC</createdTime>
+<generatorID>5EC4642A-9F2C-CE2B-4922-7C2BE820346B</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="15CCDF71-B0BA-E3B5-D19D-F9275F81AC47" name="TB_PRODUCT_PK">

@@ -32,6 +32,18 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="display_order" id="8CD0C04C-DAF7-0810-1212-FA59DBAC2305">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-09-13 02:54:57 UTC</createdTime>
+<generatorID>FA890C7A-EBAA-51F9-3150-0C228CAE44C6</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="195B8282-0771-DED1-D80C-1F4B2E95D546" name="TB_COMBO_PK">

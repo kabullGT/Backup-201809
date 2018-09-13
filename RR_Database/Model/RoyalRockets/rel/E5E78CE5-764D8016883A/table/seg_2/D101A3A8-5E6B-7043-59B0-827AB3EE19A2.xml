@@ -44,7 +44,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -63,6 +63,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="4E1631FC-D165-5FD7-6696-28F3EF87716E"/>
+<colUsage columnID="CCE1C915-F603-929B-C388-66894CCD29F3"/>
 <colUsage columnID="4410B9ED-C6F9-ECA6-A26B-11FD6F7ABAC9"/>
 </indexColumnUsage>
 </ind_PK_UK>
