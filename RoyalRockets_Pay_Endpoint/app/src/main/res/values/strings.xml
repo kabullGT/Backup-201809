@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Royal Rockets - Pay</string>
+    <string name="attention_nfc_not_enabled">Attention,\nNFC not enabled.\nCannot proceed.</string>
+    <string name="go_to_nfc_config">Go to NFC configuration</string>
+</resources>
