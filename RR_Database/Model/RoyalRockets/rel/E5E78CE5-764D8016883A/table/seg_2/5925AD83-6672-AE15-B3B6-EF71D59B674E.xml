@@ -104,6 +104,21 @@
 <colAssociation fkAssociation="39A29ADF-653C-8C48-6ADD-5A554C5288D0" referredColumn="8360D519-A33E-9E09-73E2-43A8112F5348"/>
 </associations>
 </Column>
+<Column name="order_status_id" id="0B0FBEE8-99E7-AEAC-AB90-0284D19F597D">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-10-04 20:20:13 UTC</createdTime>
+<generatorID>C9F44EE1-3975-6DA9-D773-65E733F3F0A7</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A86A16F6-6193-D362-A2D0-5176C21C85C9" referredColumn="385A7CCC-69F0-E9ED-D603-AA2E02800B2D"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="8DD843C3-20E9-70C5-9F4D-26AD0A1C8355" name="TB_ORDER_PK">
@@ -153,6 +168,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="6A45369C-9552-1136-4816-27A07634236A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3AB6283-DDC2-416E-4D5F-7A0072648875" name="ORDER_STATUS_FK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-10-04 20:20:13 UTC</createdTime>
+<generatorID>5048C85F-BB80-8F32-062D-25141CB1370E</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B0FBEE8-99E7-AEAC-AB90-0284D19F597D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

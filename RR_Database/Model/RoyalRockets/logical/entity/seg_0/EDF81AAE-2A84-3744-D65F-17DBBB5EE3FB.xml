@@ -110,6 +110,20 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="order_status_id" id="C9F44EE1-3975-6DA9-D773-65E733F3F0A7">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-10-04 20:19:36 UTC</createdTime>
+<generatorID>5048C85F-BB80-8F32-062D-25141CB1370E</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<engineerTo>
+<item key="E5E78CE5-2942-F2E1-BB08-764D8016883A" value="true"/>
+</engineerTo>
+<referedAttribute>9DAF3680-45E1-47F9-89F7-E1B114FAFAD8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="28DD71AE-9BAC-E7D2-3D10-D2747EECCD75" name="TB_ORDER PK">

@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="434E65C3-FF32-2002-0C96-C011E23A8BC6" name="TB_ORDER_STATUS">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-10-04 20:20:13 UTC</createdTime>
+<generatorID>BCC1741A-940D-2566-9F3B-F983AE0EE141</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="order_status_id" id="385A7CCC-69F0-E9ED-D603-AA2E02800B2D">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-10-04 20:20:13 UTC</createdTime>
+<generatorID>9DAF3680-45E1-47F9-89F7-E1B114FAFAD8</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dsc" id="E2C387CC-84D3-FF75-26DB-B72430892F92">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-10-04 20:20:13 UTC</createdTime>
+<generatorID>7A584C4C-E661-D675-2E03-939F78FEE8CE</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F759EB0-DE8C-E18E-4DAF-874BB1DCE3D0" name="TB_ORDER_STATUS_PK">
+<createdBy>Kabull</createdBy>
+<createdTime>2018-10-04 20:20:13 UTC</createdTime>
+<generatorID>E972A7A0-A199-67EC-8B82-EB72232407B7</generatorID>
+<ownerDesignName>RoyalRockets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="385A7CCC-69F0-E9ED-D603-AA2E02800B2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
